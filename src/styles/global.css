@@ -1,18 +1,18 @@
 :root {
-  --bg: #101114;
-  --surface: #1a1c21;
-  --surface-raised: #212328;
-  --ink: #f3f1ea;
-  --muted: #9a9a95;
-  --accent: #cba874;
-  --accent-soft: rgba(203, 168, 116, 0.16);
-  --border: rgba(255, 255, 255, 0.08);
-  --gradient-1: #2a2c33;
-  --gradient-2: #1a1c21;
-  --gradient-3: #35322b;
-  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 24px 70px rgba(0, 0, 0, 0.55);
+  /* Autumn: warm parchment ground, espresso ink, burnt-sienna accent. */
+  --bg: #f6efe4;
+  --surface: #fffaf2;
+  --surface-raised: #fbf0e0;
+  --ink: #33241a;
+  --muted: #8d7663;
+  --accent: #b4531f;
+  --accent-soft: rgba(180, 83, 31, 0.10);
+  --border: rgba(51, 36, 26, 0.13);
+  --harvest: #c8811f;
+  --olive: #6b6435;
+  --shadow-sm: 0 1px 3px rgba(84, 56, 32, 0.06);
+  --shadow-md: 0 6px 20px rgba(84, 56, 32, 0.09);
+  --shadow-lg: 0 20px 50px rgba(84, 56, 32, 0.14);
   --radius-sm: 12px;
   --radius-md: 20px;
   --radius-lg: 32px;

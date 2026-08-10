@@ -50,6 +50,7 @@ export default function App() {
         <div className="brand">
           <span className="brand-mark">✦</span>
           <span className="brand-name">Daily Word</span>
+          <span className="brand-sub">IPC Florida · Est. 2026</span>
         </div>
         <nav className="app-nav">
           <button
@@ -101,10 +102,6 @@ export default function App() {
       <main className="app-main">
         {page === "today" && (
           <>
-            <div className="homepage-notice" role="status">
-              Shoutout Hailey for typing out the July dates! The issues are fixed.
-            </div>
-
             <HeroCard
               date={currentDate}
               onPrev={() => shiftDay(-1)}
@@ -112,10 +109,6 @@ export default function App() {
               showCta={!user}
               onGetStarted={() => openAuth("signup")}
             />
-
-            <button className="wrapped-cta" onClick={() => setPage("wrapped")}>
-              View your 2026 Wrapped <span className="cta-arrow">↗</span>
-            </button>
 
             {error && <p className="error">Failed to load: {error}</p>}
             {plan && (
@@ -128,11 +121,17 @@ export default function App() {
             )}
 
             {plan && (
-              <div className="completion-summary">
-                <span className="completion-count">{daysComplete}</span>
-                <span className="completion-label">
-                  day{daysComplete === 1 ? "" : "s"} complete
-                </span>
+              <div className="summary-strip">
+                <div className="summary-stat">
+                  <span className="summary-num">{daysComplete}</span>
+                  <span className="summary-key">
+                    day{daysComplete === 1 ? "" : "s"} complete
+                  </span>
+                </div>
+                <span className="summary-rule" aria-hidden="true" />
+                <button className="wrapped-cta" onClick={() => setPage("wrapped")}>
+                  View your 2026 Wrapped <span className="cta-arrow">↗</span>
+                </button>
               </div>
             )}
 

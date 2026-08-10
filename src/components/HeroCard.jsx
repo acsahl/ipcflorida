@@ -1,60 +1,67 @@
 import "./HeroCard.css";
 
-function fmtDate(d) {
-  return d.toLocaleDateString("en-US", {
-    weekday: "long",
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
+const YEAR_START = new Date(2026, 0, 1);
+
+function dayOfYear(d) {
+  return Math.floor((d - YEAR_START) / 86400000) + 1;
 }
 
 export default function HeroCard({ date, onPrev, onNext, showCta = false, onGetStarted }) {
   const today = new Date();
   const isToday = date.toDateString() === today.toDateString();
+  const doy = Math.min(Math.max(dayOfYear(date), 1), 365);
+  const pct = (doy / 365) * 100;
+
+  const weekday = date.toLocaleDateString("en-US", { weekday: "long" });
+  const month = date.toLocaleDateString("en-US", { month: "long" });
+  const day = date.getDate();
+  const year = date.getFullYear();
 
   return (
     <section className="hero">
-      <div className="hero-gradient" aria-hidden="true">
-        <svg viewBox="0 0 800 400" preserveAspectRatio="none">
-          <defs>
-            <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#2a2c33" />
-              <stop offset="55%" stopColor="#1a1c21" />
-              <stop offset="100%" stopColor="#3a3226" />
-            </linearGradient>
-          </defs>
-          <rect width="800" height="400" fill="#101114" />
-          <path d="M0,200 Q200,50 400,200 T800,200 L800,400 L0,400 Z" fill="url(#g1)" opacity="0.9" />
-          <path d="M0,250 Q200,150 400,260 T800,240 L800,400 L0,400 Z" fill="url(#g1)" opacity="0.6" />
-        </svg>
-      </div>
+      {/* Left rail — vertical year progress */}
+      <aside className="hero-rail" aria-hidden="true">
+        <span className="rail-num">{String(doy).padStart(3, "0")}</span>
+        <div className="rail-track">
+          <div className="rail-fill" style={{ height: `${pct}%` }} />
+        </div>
+        <span className="rail-num rail-num-end">365</span>
+      </aside>
 
-      <div className="hero-content">
-        <div className="hero-pill">
-          <button className="day-nav" onClick={onPrev} aria-label="Previous day">‹</button>
-          <div className="hero-text">
-            <span className="hero-eyebrow">{isToday ? "Today" : "Reading for"}</span>
-            <h1 className="hero-date">{fmtDate(date)}</h1>
+      <div className="hero-body">
+        <div className="hero-top">
+          <span className="hero-eyebrow">
+            {isToday ? "Today's reading" : "Reading for"}
+          </span>
+          <div className="hero-stepper">
+            <button className="step" onClick={onPrev} aria-label="Previous day">‹</button>
+            <button className="step" onClick={onNext} aria-label="Next day">›</button>
           </div>
-          <button className="day-nav" onClick={onNext} aria-label="Next day">›</button>
         </div>
 
-        {showCta && (
-          <div className="hero-cta">
-            <span>Stay in the Word, daily</span>
-            <button className="cta-button" onClick={onGetStarted}>
-              Get started <span className="cta-arrow">↗</span>
-            </button>
-          </div>
-        )}
-      </div>
+        <h1 className="hero-display">
+          <span className="line-weekday">{weekday},</span>
+          <span className="line-month">{month}</span>
+          <span className="line-day">
+            {day}
+            <span className="line-year">{year}</span>
+          </span>
+        </h1>
 
-      <div className="hero-badge">
-        <span className="badge-star">★</span>
-        <div>
-          <div className="badge-line-1">IPC Florida</div>
-          <div className="badge-line-2">Reading Plan 2026</div>
+        <div className="hero-foot">
+          <div className="hero-meta">
+            <span className="meta-key">Plan</span>
+            <span className="meta-val">IPC Florida · 2026</span>
+          </div>
+          <div className="hero-meta">
+            <span className="meta-key">Day</span>
+            <span className="meta-val">{doy} of 365</span>
+          </div>
+          {showCta && (
+            <button className="hero-cta-btn" onClick={onGetStarted}>
+              Start tracking <span aria-hidden="true">↗</span>
+            </button>
+          )}
         </div>
       </div>
     </section>

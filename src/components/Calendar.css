@@ -119,14 +119,14 @@
 }
 
 .cal-cell.is-partial {
-  background: var(--accent-soft);
+  background: rgba(180, 83, 31, 0.2);
 }
 
 .cal-cell.is-full {
-  background: rgba(74, 222, 128, 0.18);
+  background: rgba(107, 100, 53, 0.3);
 }
 .cal-cell.is-full .cal-dot {
-  background: #4ade80;
+  background: var(--olive);
 }
 
 .cal-cell.is-today {
@@ -168,8 +168,8 @@
   border-radius: 4px;
   display: inline-block;
 }
-.legend-swatch.is-full { background: rgba(74, 222, 128, 0.18); }
-.legend-swatch.is-partial { background: var(--accent-soft); }
+.legend-swatch.is-full { background: rgba(107, 100, 53, 0.3); }
+.legend-swatch.is-partial { background: rgba(180, 83, 31, 0.2); }
 .legend-swatch.is-today { background: var(--bg); border: 2px solid var(--accent); }
 
 @media (max-width: 700px) {

@@ -3,13 +3,6 @@ import "./ReadingsGrid.css";
 
 const SECTION_ORDER = ["psalms", "pentateuch", "chronicles", "gospels"];
 
-const ACCENTS = {
-  psalms: { bg: "#2b3350", fg: "#f3f1ea", icon: "♪" },
-  pentateuch: { bg: "#0a0a0c", fg: "#f3f1ea", icon: "✦" },
-  chronicles: { bg: "#332e26", fg: "#f3f1ea", icon: "◆" },
-  gospels: { bg: "#f3ede0", fg: "#14120f", icon: "✝" },
-};
-
 function fmtKey(d) {
   const y = d.getFullYear();
   const m = String(d.getMonth() + 1).padStart(2, "0");
@@ -30,19 +23,32 @@ export default function ReadingsGrid({ plan, date, isComplete, onToggle }) {
     );
   }
 
+  const doneCount = SECTION_ORDER.filter((s) => isComplete(key, s)).length;
+
   return (
-    <div className="readings-grid">
-      {SECTION_ORDER.map((sec) => (
-        <ReadingCard
-          key={sec}
-          section={sec}
-          label={labels[sec]}
-          passage={day[sec]}
-          accent={ACCENTS[sec]}
-          complete={isComplete(key, sec)}
-          onToggle={() => onToggle(key, sec)}
-        />
-      ))}
-    </div>
+    <section className="readings">
+      <header className="readings-header">
+        <h2 className="readings-title">
+          Four <em>passages</em>
+        </h2>
+        <span className="readings-count">
+          {doneCount} <span className="count-sep">/</span> 4 complete
+        </span>
+      </header>
+
+      <div className="readings-grid">
+        {SECTION_ORDER.map((sec, i) => (
+          <ReadingCard
+            key={sec}
+            section={sec}
+            index={i}
+            label={labels[sec]}
+            passage={day[sec]}
+            complete={isComplete(key, sec)}
+            onToggle={() => onToggle(key, sec)}
+          />
+        ))}
+      </div>
+    </section>
   );
 }

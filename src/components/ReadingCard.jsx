@@ -1,10 +1,9 @@
 import "./ReadingCard.css";
 
-export default function ReadingCard({ section, label, passage, accent, complete, onToggle }) {
+export default function ReadingCard({ section, index, label, passage, complete, onToggle }) {
   return (
     <article
-      className={`reading-card ${complete ? "is-complete" : ""}`}
-      style={{ background: accent.bg, color: accent.fg }}
+      className={`reading-card ${index === 0 ? "is-feature" : ""} ${complete ? "is-complete" : ""}`}
       data-section={section}
       onClick={onToggle}
       role="button"
@@ -17,17 +16,23 @@ export default function ReadingCard({ section, label, passage, accent, complete,
       }}
       aria-pressed={complete}
     >
-      <div className="reading-icon" aria-hidden="true">
-        {complete ? "✓" : accent.icon}
+      <div className="reading-head">
+        <span className="reading-index">{String(index + 1).padStart(2, "0")}</span>
+        <span className={`reading-check ${complete ? "is-on" : ""}`} aria-hidden="true">
+          {complete ? "✓" : ""}
+        </span>
       </div>
+
       <div className="reading-body">
         <h3 className="reading-label">{label}</h3>
         <p className="reading-passage">{passage}</p>
       </div>
+
       <div className="reading-foot">
         <span className="reading-status">
-          {complete ? "Completed · tap to undo" : "Tap to mark complete"}
+          {complete ? "Complete" : "Mark complete"}
         </span>
+        <span className="reading-rule" aria-hidden="true" />
       </div>
     </article>
   );
