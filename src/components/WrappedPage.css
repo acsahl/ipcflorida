@@ -43,11 +43,29 @@
   isolation: isolate;
 }
 
-/* Per-slide palettes, all drawn from the autumn set. */
-.tone-ink     { background: linear-gradient(155deg, #3a2a1e, #211610); color: #f7f1e6; }
-.tone-rust    { background: linear-gradient(155deg, #c25a22, #8f3d14); color: #fff6ec; }
-.tone-harvest { background: linear-gradient(155deg, #d79433, #a8691a); color: #2b1c0e; }
-.tone-olive   { background: linear-gradient(155deg, #7d7640, #4f4a24); color: #f7f4e4; }
+/* Per-slide tones, derived from the active theme so the story always matches
+   the rest of the site. Each is the theme colour shading into a darker mix. */
+.tone-ink {
+  background: linear-gradient(155deg,
+    color-mix(in srgb, var(--ink) 88%, #fff), var(--ink));
+  color: var(--surface);
+}
+.tone-rust {
+  background: linear-gradient(155deg,
+    var(--accent), color-mix(in srgb, var(--accent) 72%, #000));
+  color: #fff;
+}
+.tone-harvest {
+  background: linear-gradient(155deg,
+    color-mix(in srgb, var(--harvest) 92%, #000),
+    color-mix(in srgb, var(--harvest) 62%, #000));
+  color: #fff;
+}
+.tone-olive {
+  background: linear-gradient(155deg,
+    var(--olive), color-mix(in srgb, var(--olive) 68%, #000));
+  color: #fff;
+}
 
 /* soft moving glow so slides don't feel static */
 .wrapped-story::before {

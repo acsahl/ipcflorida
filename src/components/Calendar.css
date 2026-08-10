@@ -119,11 +119,11 @@
 }
 
 .cal-cell.is-partial {
-  background: rgba(180, 83, 31, 0.2);
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
 }
 
 .cal-cell.is-full {
-  background: rgba(107, 100, 53, 0.3);
+  background: color-mix(in srgb, var(--olive) 30%, transparent);
 }
 .cal-cell.is-full .cal-dot {
   background: var(--olive);
@@ -168,8 +168,8 @@
   border-radius: 4px;
   display: inline-block;
 }
-.legend-swatch.is-full { background: rgba(107, 100, 53, 0.3); }
-.legend-swatch.is-partial { background: rgba(180, 83, 31, 0.2); }
+.legend-swatch.is-full { background: color-mix(in srgb, var(--olive) 30%, transparent); }
+.legend-swatch.is-partial { background: color-mix(in srgb, var(--accent) 22%, transparent); }
 .legend-swatch.is-today { background: var(--bg); border: 2px solid var(--accent); }
 
 @media (max-width: 700px) {

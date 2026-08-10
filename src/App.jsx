@@ -7,6 +7,7 @@ import InsightPanel from "./components/InsightPanel.jsx";
 import Calendar from "./components/Calendar.jsx";
 import WrappedPage from "./components/WrappedPage.jsx";
 import BooksPage from "./components/BooksPage.jsx";
+import ThemePicker from "./components/ThemePicker.jsx";
 import useCompletions from "./hooks/useCompletions.js";
 import { useAuth } from "./contexts/AuthContext.jsx";
 import "./styles/app.css";
@@ -84,6 +85,7 @@ export default function App() {
           >
             Wrapped
           </button>
+          <ThemePicker />
           {authLoading ? (
             <span className="nav-link" style={{ opacity: 0.5 }}>…</span>
           ) : user ? (

@@ -28,7 +28,7 @@
 .reading-card:hover::after { width: 100%; }
 
 .reading-card:hover {
-  border-color: rgba(180, 83, 31, 0.4);
+  border-color: color-mix(in srgb, var(--accent) 40%, transparent);
   box-shadow: var(--shadow-md);
   transform: translateY(-3px);
 }
@@ -50,11 +50,11 @@
   font-style: italic;
   font-size: 2.75rem;
   line-height: 1;
-  color: rgba(51, 36, 26, 0.16);
+  color: color-mix(in srgb, var(--ink) 16%, transparent);
   transition: color 0.2s;
 }
-.reading-card:hover .reading-index { color: rgba(180, 83, 31, 0.55); }
-.reading-card.is-complete .reading-index { color: rgba(180, 83, 31, 0.4); }
+.reading-card:hover .reading-index { color: color-mix(in srgb, var(--accent) 55%, transparent); }
+.reading-card.is-complete .reading-index { color: color-mix(in srgb, var(--accent) 40%, transparent); }
 
 .reading-check {
   width: 1.65rem;
@@ -120,14 +120,14 @@
 
 /* ---------- complete state ---------- */
 .reading-card.is-complete {
-  background: rgba(180, 83, 31, 0.05);
-  border-color: rgba(180, 83, 31, 0.28);
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 28%, transparent);
 }
 .reading-card.is-complete .reading-passage {
   color: var(--muted);
   text-decoration: line-through;
   text-decoration-thickness: 1px;
-  text-decoration-color: rgba(180, 83, 31, 0.55);
+  text-decoration-color: color-mix(in srgb, var(--accent) 55%, transparent);
 }
 .reading-card.is-complete .reading-status { color: var(--accent); }
 

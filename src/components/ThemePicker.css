@@ -1,0 +1,67 @@
+.theme-picker { position: relative; display: inline-flex; }
+
+.theme-trigger {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.18s, transform 0.18s;
+}
+.theme-trigger:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+/* Two-tone chip: ground on the left, accent on the right. */
+.theme-dot {
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px var(--border);
+  flex-shrink: 0;
+}
+.theme-dot span { display: block; width: 50%; height: 100%; }
+
+.theme-menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  z-index: 40;
+  list-style: none;
+  min-width: 168px;
+  padding: 0.35rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.theme-option {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 8px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: left;
+  transition: background 0.15s, color 0.15s;
+}
+.theme-option:hover { background: var(--accent-soft); color: var(--ink); }
+.theme-option.is-active { color: var(--accent); font-weight: 600; }
+
+@media (max-width: 700px) {
+  .theme-menu { right: auto; left: 0; }
+}
