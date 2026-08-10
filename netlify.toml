@@ -14,8 +14,13 @@
   to = "/.netlify/functions/:splat"
   status = 200
 
-# NOTE: the SPA fallback lives in public/_redirects, not here.
-# `netlify dev` applies netlify.toml redirects *before* proxying to Vite, so a
-# catch-all here rewrites /src/*.jsx to index.html and the page renders blank.
-# public/_redirects is copied into dist/ at build time, so production still
-# gets the fallback while local dev keeps working.
+# There is deliberately NO SPA catch-all (/* -> /index.html).
+#
+# The app has no client-side routing: page switching is React state and every
+# URL it produces is "/". A catch-all buys nothing here and actively breaks
+# `netlify dev`, which applies redirects ahead of the Vite proxy and would
+# serve index.html for /src/*.jsx (blank page) and /api/* (dead functions).
+# It breaks the same way from a _redirects file, since netlify dev also reads
+# one from publicDir and from the publish dir. If real routes are added later,
+# add the fallback then and verify `netlify dev` still serves /src/main.jsx as
+# text/javascript.
