@@ -1,0 +1,4 @@
+# SPA fallback for the built site. Netlify serves existing files first, so
+# hashed assets in /assets/ are unaffected. Kept out of netlify.toml because
+# `netlify dev` applies toml redirects ahead of the Vite proxy.
+/*  /index.html  200

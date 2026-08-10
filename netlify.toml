@@ -14,8 +14,8 @@
   to = "/.netlify/functions/:splat"
   status = 200
 
-# SPA fallback for client routing
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# NOTE: the SPA fallback lives in public/_redirects, not here.
+# `netlify dev` applies netlify.toml redirects *before* proxying to Vite, so a
+# catch-all here rewrites /src/*.jsx to index.html and the page renders blank.
+# public/_redirects is copied into dist/ at build time, so production still
+# gets the fallback while local dev keeps working.
