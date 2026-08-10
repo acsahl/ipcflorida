@@ -14,8 +14,9 @@
       "chronicles": "Chronicles and Prophets",
       "gospels": "Gospels and Epistles"
     },
-    "status": "DRAFT - Generated from PDF. January Gospels verified by user. Spot-check needed for Feb-Dec.",
-    "totalDays": 365
+    "status": "Transcribed from the IPC Florida 2026 printed plan. 46 of 48 month-columns verified against the source. UNVERIFIED: Gospels March and June (outside the source photo's frame); Pentateuch Oct 30-31 and Gospels Dec 30-31 (obscured in the source photo).",
+    "totalDays": 365,
+    "verifiedAt": "2026-08-10"
   },
   "readings": {
     "2026-01-01": {
@@ -34,7 +35,7 @@
       "psalms": "Psalm 2",
       "pentateuch": "Genesis 3",
       "chronicles": "1 Chronicles 3",
-      "gospels": "Luke 1:56-80"
+      "gospels": "Luke 1:57-80"
     },
     "2026-01-04": {
       "psalms": "Psalm 3",
@@ -105,13 +106,13 @@
     "2026-01-15": {
       "psalms": "Psalm 14",
       "pentateuch": "Genesis 15",
-      "chronicles": "1 Chronicles 15",
+      "chronicles": "1 Chronicles 15:1-16:3",
       "gospels": "Luke 9:1-50"
     },
     "2026-01-16": {
       "psalms": "Psalm 15",
       "pentateuch": "Genesis 16",
-      "chronicles": "1 Chronicles 16",
+      "chronicles": "1 Chronicles 16:4-43",
       "gospels": "Luke 9:51-10:24"
     },
     "2026-01-17": {
@@ -123,989 +124,989 @@
     "2026-01-18": {
       "psalms": "Psalm 17",
       "pentateuch": "Genesis 18:1-15",
-      "chronicles": "1 Chronicles 18",
+      "chronicles": "1 Chronicles 18-20",
       "gospels": "Luke 11:1-36"
     },
     "2026-01-19": {
       "psalms": "Psalm 18",
       "pentateuch": "Genesis 18:16-33",
-      "chronicles": "1 Chronicles 19",
+      "chronicles": "1 Chronicles 21:1-17",
       "gospels": "Luke 11:37-12:12"
     },
     "2026-01-20": {
       "psalms": "Psalm 19",
-      "pentateuch": "Genesis 19:1-29",
-      "chronicles": "1 Chronicles 20",
+      "pentateuch": "Genesis 19",
+      "chronicles": "1 Chronicles 21:18-22:19",
       "gospels": "Luke 12:13-48"
     },
     "2026-01-21": {
       "psalms": "Psalm 20",
-      "pentateuch": "Genesis 19:30-38",
-      "chronicles": "1 Chronicles 21",
+      "pentateuch": "Genesis 20",
+      "chronicles": "1 Chronicles 23-24",
       "gospels": "Luke 12:49-13:9"
     },
     "2026-01-22": {
       "psalms": "Psalm 21",
-      "pentateuch": "Genesis 20",
-      "chronicles": "1 Chronicles 22",
+      "pentateuch": "Genesis 21:1-21",
+      "chronicles": "1 Chronicles 25",
       "gospels": "Luke 13:10-35"
     },
     "2026-01-23": {
       "psalms": "Psalm 22",
-      "pentateuch": "Genesis 21",
-      "chronicles": "1 Chronicles 23",
+      "pentateuch": "Genesis 21:22-34",
+      "chronicles": "1 Chronicles 26",
       "gospels": "Luke 14"
     },
     "2026-01-24": {
       "psalms": "Psalm 23",
       "pentateuch": "Genesis 22",
-      "chronicles": "1 Chronicles 24",
+      "chronicles": "1 Chronicles 27",
       "gospels": "Luke 15"
     },
     "2026-01-25": {
       "psalms": "Psalm 24",
       "pentateuch": "Genesis 23",
-      "chronicles": "1 Chronicles 25",
+      "chronicles": "1 Chronicles 28",
       "gospels": "Luke 16:1-17:10"
     },
     "2026-01-26": {
       "psalms": "Psalm 25",
       "pentateuch": "Genesis 24",
-      "chronicles": "1 Chronicles 26",
+      "chronicles": "1 Chronicles 29:1-22a",
       "gospels": "Luke 17:11-37"
     },
     "2026-01-27": {
       "psalms": "Psalm 26",
       "pentateuch": "Genesis 25:1-18",
-      "chronicles": "1 Chronicles 27",
+      "chronicles": "1 Chronicles 29:22b-30",
       "gospels": "Luke 18:1-30"
     },
     "2026-01-28": {
       "psalms": "Psalm 27",
       "pentateuch": "Genesis 25:19-34",
-      "chronicles": "1 Chronicles 28",
+      "chronicles": "2 Chronicles 1",
       "gospels": "Luke 18:31-19:27"
     },
     "2026-01-29": {
       "psalms": "Psalm 28",
       "pentateuch": "Genesis 26",
-      "chronicles": "1 Chronicles 29",
+      "chronicles": "2 Chronicles 2",
       "gospels": "Luke 19:28-46"
     },
     "2026-01-30": {
       "psalms": "Psalm 29",
       "pentateuch": "Genesis 27:1-40",
-      "chronicles": "2 Chronicles 1",
+      "chronicles": "2 Chronicles 3",
       "gospels": "Luke 19:47-20:44"
     },
     "2026-01-31": {
       "psalms": "Psalm 30",
       "pentateuch": "Genesis 27:41-28:9",
-      "chronicles": "2 Chronicles 2",
+      "chronicles": "2 Chronicles 4",
       "gospels": "Luke 20:45-21:38"
     },
     "2026-02-01": {
       "psalms": "Psalm 31",
       "pentateuch": "Genesis 28:10-22",
-      "chronicles": "2 Chronicles 3",
+      "chronicles": "2 Chronicles 5",
       "gospels": "Luke 22:1-46"
     },
     "2026-02-02": {
       "psalms": "Psalm 32",
       "pentateuch": "Genesis 29:1-30",
-      "chronicles": "2 Chronicles 4",
+      "chronicles": "2 Chronicles 6",
       "gospels": "Luke 22:47-23:25"
     },
     "2026-02-03": {
       "psalms": "Psalm 33",
       "pentateuch": "Genesis 29:31-30:43",
-      "chronicles": "2 Chronicles 5",
+      "chronicles": "2 Chronicles 7",
       "gospels": "Luke 23:26-56"
     },
     "2026-02-04": {
       "psalms": "Psalm 34",
       "pentateuch": "Genesis 31",
-      "chronicles": "2 Chronicles 6",
+      "chronicles": "2 Chronicles 8",
       "gospels": "Luke 24"
     },
     "2026-02-05": {
       "psalms": "Psalm 35",
       "pentateuch": "Genesis 32",
-      "chronicles": "2 Chronicles 7",
+      "chronicles": "2 Chronicles 9",
       "gospels": "Acts 1"
     },
     "2026-02-06": {
       "psalms": "Psalm 36",
       "pentateuch": "Genesis 33",
-      "chronicles": "2 Chronicles 8",
+      "chronicles": "2 Chronicles 10",
       "gospels": "Acts 2"
     },
     "2026-02-07": {
       "psalms": "Psalm 37",
       "pentateuch": "Genesis 34",
-      "chronicles": "2 Chronicles 9",
-      "gospels": "Acts 3"
+      "chronicles": "2 Chronicles 11",
+      "gospels": "Acts 3:1-4:31"
     },
     "2026-02-08": {
       "psalms": "Psalm 38",
       "pentateuch": "Genesis 35",
-      "chronicles": "2 Chronicles 10",
-      "gospels": "Acts 4:1-31"
+      "chronicles": "2 Chronicles 12",
+      "gospels": "Acts 4:32-6:7"
     },
     "2026-02-09": {
       "psalms": "Psalm 39",
       "pentateuch": "Genesis 36",
-      "chronicles": "2 Chronicles 11",
-      "gospels": "Acts 4:32-5:11"
+      "chronicles": "2 Chronicles 13",
+      "gospels": "Acts 6:8-7:60"
     },
     "2026-02-10": {
       "psalms": "Psalm 40",
       "pentateuch": "Genesis 37",
-      "chronicles": "2 Chronicles 12",
-      "gospels": "Acts 5:12-42"
+      "chronicles": "2 Chronicles 14",
+      "gospels": "Acts 8"
     },
     "2026-02-11": {
       "psalms": "Psalm 41",
       "pentateuch": "Genesis 38",
-      "chronicles": "2 Chronicles 13",
-      "gospels": "Acts 6"
+      "chronicles": "2 Chronicles 15",
+      "gospels": "Acts 9:1-31"
     },
     "2026-02-12": {
       "psalms": "Psalm 42-43",
       "pentateuch": "Genesis 39",
-      "chronicles": "2 Chronicles 14",
-      "gospels": "Acts 7:1-43"
+      "chronicles": "2 Chronicles 16",
+      "gospels": "Acts 9:32-43"
     },
     "2026-02-13": {
       "psalms": "Psalm 44",
       "pentateuch": "Genesis 40",
-      "chronicles": "2 Chronicles 15",
-      "gospels": "Acts 7:44-8:3"
+      "chronicles": "2 Chronicles 17",
+      "gospels": "Acts 10:1-11:18"
     },
     "2026-02-14": {
       "psalms": "Psalm 45",
-      "pentateuch": "Genesis 41:1-37",
-      "chronicles": "2 Chronicles 16",
-      "gospels": "Acts 8:4-40"
+      "pentateuch": "Genesis 41:1-36",
+      "chronicles": "2 Chronicles 18:1-19:3",
+      "gospels": "Acts 11:19-30"
     },
     "2026-02-15": {
       "psalms": "Psalm 46",
       "pentateuch": "Genesis 41:37-57",
-      "chronicles": "2 Chronicles 17",
-      "gospels": "Acts 9:1-31"
+      "chronicles": "2 Chronicles 19:4-11",
+      "gospels": "Acts 12"
     },
     "2026-02-16": {
       "psalms": "Psalm 47",
       "pentateuch": "Genesis 42",
-      "chronicles": "2 Chronicles 18",
-      "gospels": "Acts 9:32-43"
+      "chronicles": "2 Chronicles 20",
+      "gospels": "Acts 13-14"
     },
     "2026-02-17": {
       "psalms": "Psalm 48",
       "pentateuch": "Genesis 43",
-      "chronicles": "2 Chronicles 19",
-      "gospels": "Acts 10"
+      "chronicles": "2 Chronicles 21",
+      "gospels": "Acts 15:1-35"
     },
     "2026-02-18": {
       "psalms": "Psalm 49",
       "pentateuch": "Genesis 44",
-      "chronicles": "2 Chronicles 20",
-      "gospels": "Acts 11:1-18"
+      "chronicles": "2 Chronicles 22",
+      "gospels": "Acts 15:36-17:15"
     },
     "2026-02-19": {
       "psalms": "Psalm 50",
       "pentateuch": "Genesis 45",
-      "chronicles": "2 Chronicles 21",
-      "gospels": "Acts 11:19-12:25"
+      "chronicles": "2 Chronicles 23",
+      "gospels": "Acts 17:16-34"
     },
     "2026-02-20": {
       "psalms": "Psalm 51",
       "pentateuch": "Genesis 46:1-47:12",
-      "chronicles": "2 Chronicles 22",
-      "gospels": "Acts 13:1-12"
+      "chronicles": "2 Chronicles 24",
+      "gospels": "Acts 18:1-22"
     },
     "2026-02-21": {
       "psalms": "Psalm 52",
       "pentateuch": "Genesis 47:13-26",
-      "chronicles": "2 Chronicles 23",
-      "gospels": "Acts 13:13-52"
+      "chronicles": "2 Chronicles 25",
+      "gospels": "Acts 18:23-19:22"
     },
     "2026-02-22": {
       "psalms": "Psalm 53",
       "pentateuch": "Genesis 47:27-48:22",
-      "chronicles": "2 Chronicles 24",
-      "gospels": "Acts 14"
+      "chronicles": "2 Chronicles 26",
+      "gospels": "Acts 19:23-20:16"
     },
     "2026-02-23": {
       "psalms": "Psalm 54",
       "pentateuch": "Genesis 49",
-      "chronicles": "2 Chronicles 25",
-      "gospels": "Acts 15:1-21"
+      "chronicles": "2 Chronicles 27",
+      "gospels": "Acts 20:17-21:16"
     },
     "2026-02-24": {
       "psalms": "Psalm 55",
       "pentateuch": "Genesis 50:1-14",
-      "chronicles": "2 Chronicles 26",
-      "gospels": "Acts 15:22-41"
+      "chronicles": "2 Chronicles 28",
+      "gospels": "Acts 21:17-23:11"
     },
     "2026-02-25": {
       "psalms": "Psalm 56",
       "pentateuch": "Genesis 50:15-26",
-      "chronicles": "2 Chronicles 27",
-      "gospels": "Acts 16"
+      "chronicles": "2 Chronicles 29",
+      "gospels": "Acts 23:12-24:27"
     },
     "2026-02-26": {
       "psalms": "Psalm 57",
-      "pentateuch": "Exodus 1",
-      "chronicles": "2 Chronicles 28",
-      "gospels": "Acts 17"
+      "pentateuch": "Exodus 1:1-21",
+      "chronicles": "2 Chronicles 30",
+      "gospels": "Acts 25-26"
     },
     "2026-02-27": {
       "psalms": "Psalm 58",
-      "pentateuch": "Exodus 2",
-      "chronicles": "2 Chronicles 29",
-      "gospels": "Acts 18"
+      "pentateuch": "Exodus 1:22-2:22",
+      "chronicles": "2 Chronicles 31",
+      "gospels": "Acts 27:1-28:15"
     },
     "2026-02-28": {
       "psalms": "Psalm 59",
-      "pentateuch": "Exodus 3",
-      "chronicles": "2 Chronicles 30",
-      "gospels": "Acts 19"
+      "pentateuch": "Exodus 2:23-3:22",
+      "chronicles": "2 Chronicles 32",
+      "gospels": "Acts 28:16-31"
     },
     "2026-03-01": {
       "psalms": "Psalm 60",
       "pentateuch": "Exodus 4",
-      "chronicles": "2 Chronicles 31",
+      "chronicles": "2 Chronicles 33",
       "gospels": "Romans 1:1-17"
     },
     "2026-03-02": {
       "psalms": "Psalm 61",
-      "pentateuch": "Exodus 5:1-6:13",
-      "chronicles": "2 Chronicles 32",
+      "pentateuch": "Exodus 5:1-6:9",
+      "chronicles": "2 Chronicles 34",
       "gospels": "Romans 1:18-32"
     },
     "2026-03-03": {
       "psalms": "Psalm 62",
-      "pentateuch": "Exodus 6:14-30",
-      "chronicles": "2 Chronicles 33",
+      "pentateuch": "Exodus 6:10-7:13",
+      "chronicles": "2 Chronicles 35:1-19",
       "gospels": "Romans 2"
     },
     "2026-03-04": {
       "psalms": "Psalm 63",
-      "pentateuch": "Exodus 7",
-      "chronicles": "2 Chronicles 34",
+      "pentateuch": "Exodus 7:14-8:19",
+      "chronicles": "2 Chronicles 35:20-27",
       "gospels": "Romans 3"
     },
     "2026-03-05": {
       "psalms": "Psalm 64",
-      "pentateuch": "Exodus 8",
-      "chronicles": "2 Chronicles 35",
+      "pentateuch": "Exodus 8:20-9:12",
+      "chronicles": "2 Chronicles 36",
       "gospels": "Romans 4"
     },
     "2026-03-06": {
       "psalms": "Psalm 65",
-      "pentateuch": "Exodus 9",
-      "chronicles": "2 Chronicles 36",
+      "pentateuch": "Exodus 9:13-10:29",
+      "chronicles": "Ezra 1",
       "gospels": "Romans 5:1-11"
     },
     "2026-03-07": {
       "psalms": "Psalm 66",
-      "pentateuch": "Exodus 10",
-      "chronicles": "Isaiah 1",
+      "pentateuch": "Exodus 11:1-12:30",
+      "chronicles": "Ezra 2",
       "gospels": "Romans 5:12-21"
     },
     "2026-03-08": {
       "psalms": "Psalm 67",
-      "pentateuch": "Exodus 11",
-      "chronicles": "Isaiah 2",
+      "pentateuch": "Exodus 12:31-13:22",
+      "chronicles": "Ezra 3",
       "gospels": "Romans 6"
     },
     "2026-03-09": {
       "psalms": "Psalm 68",
-      "pentateuch": "Exodus 12:1-28",
-      "chronicles": "Isaiah 3-4",
+      "pentateuch": "Exodus 14",
+      "chronicles": "Ezra 4",
       "gospels": "Romans 7"
     },
     "2026-03-10": {
       "psalms": "Psalm 69",
-      "pentateuch": "Exodus 12:29-13:22",
-      "chronicles": "Isaiah 5",
+      "pentateuch": "Exodus 15:1-21",
+      "chronicles": "Ezra 5",
       "gospels": "Romans 8:1-17"
     },
     "2026-03-11": {
       "psalms": "Psalm 70",
-      "pentateuch": "Exodus 14",
-      "chronicles": "Isaiah 6",
+      "pentateuch": "Exodus 15:22-16:36",
+      "chronicles": "Ezra 6",
       "gospels": "Romans 8:18-39"
     },
     "2026-03-12": {
       "psalms": "Psalm 71",
-      "pentateuch": "Exodus 15:1-21",
-      "chronicles": "Isaiah 7",
+      "pentateuch": "Exodus 17",
+      "chronicles": "Ezra 7",
       "gospels": "Romans 9"
     },
     "2026-03-13": {
       "psalms": "Psalm 72",
-      "pentateuch": "Exodus 15:22-16:36",
-      "chronicles": "Isaiah 8:1-9:7",
+      "pentateuch": "Exodus 18",
+      "chronicles": "Ezra 8",
       "gospels": "Romans 10"
     },
     "2026-03-14": {
       "psalms": "Psalm 73",
-      "pentateuch": "Exodus 17",
-      "chronicles": "Isaiah 9:8-10:4",
+      "pentateuch": "Exodus 19",
+      "chronicles": "Ezra 9",
       "gospels": "Romans 11"
     },
     "2026-03-15": {
       "psalms": "Psalm 74",
-      "pentateuch": "Exodus 18",
-      "chronicles": "Isaiah 10:5-34",
+      "pentateuch": "Exodus 20:1-17",
+      "chronicles": "Ezra 10",
       "gospels": "Romans 12"
     },
     "2026-03-16": {
       "psalms": "Psalm 75",
-      "pentateuch": "Exodus 19",
-      "chronicles": "Isaiah 11-12",
+      "pentateuch": "Exodus 20:18-21:11",
+      "chronicles": "Nehemiah 1",
       "gospels": "Romans 13"
     },
     "2026-03-17": {
       "psalms": "Psalm 76",
-      "pentateuch": "Exodus 20:1-21",
-      "chronicles": "Isaiah 13",
+      "pentateuch": "Exodus 21:12-22:15",
+      "chronicles": "Nehemiah 2",
       "gospels": "Romans 14"
     },
     "2026-03-18": {
       "psalms": "Psalm 77",
-      "pentateuch": "Exodus 20:22-21:11",
-      "chronicles": "Isaiah 14",
+      "pentateuch": "Exodus 22:16-23:9",
+      "chronicles": "Nehemiah 3",
       "gospels": "Romans 15"
     },
     "2026-03-19": {
       "psalms": "Psalm 78",
-      "pentateuch": "Exodus 21:12-22:31",
-      "chronicles": "Isaiah 15-16",
+      "pentateuch": "Exodus 23:10-33",
+      "chronicles": "Nehemiah 4",
       "gospels": "Romans 16"
     },
     "2026-03-20": {
       "psalms": "Psalm 79",
-      "pentateuch": "Exodus 23",
-      "chronicles": "Isaiah 17-18",
+      "pentateuch": "Exodus 24",
+      "chronicles": "Nehemiah 5",
       "gospels": "1 Corinthians 1"
     },
     "2026-03-21": {
       "psalms": "Psalm 80",
-      "pentateuch": "Exodus 24",
-      "chronicles": "Isaiah 19-20",
+      "pentateuch": "Exodus 25",
+      "chronicles": "Nehemiah 6",
       "gospels": "1 Corinthians 2"
     },
     "2026-03-22": {
       "psalms": "Psalm 81",
-      "pentateuch": "Exodus 25",
-      "chronicles": "Isaiah 21",
+      "pentateuch": "Exodus 26",
+      "chronicles": "Nehemiah 7",
       "gospels": "1 Corinthians 3"
     },
     "2026-03-23": {
       "psalms": "Psalm 82",
-      "pentateuch": "Exodus 26",
-      "chronicles": "Isaiah 22",
+      "pentateuch": "Exodus 27:1-19",
+      "chronicles": "Nehemiah 8",
       "gospels": "1 Corinthians 4"
     },
     "2026-03-24": {
       "psalms": "Psalm 83",
-      "pentateuch": "Exodus 27",
-      "chronicles": "Isaiah 23",
+      "pentateuch": "Exodus 27:20-28:43",
+      "chronicles": "Nehemiah 9",
       "gospels": "1 Corinthians 5"
     },
     "2026-03-25": {
       "psalms": "Psalm 84",
-      "pentateuch": "Exodus 28",
-      "chronicles": "Isaiah 24",
+      "pentateuch": "Exodus 29",
+      "chronicles": "Nehemiah 10",
       "gospels": "1 Corinthians 6"
     },
     "2026-03-26": {
       "psalms": "Psalm 85",
-      "pentateuch": "Exodus 29:1-30",
-      "chronicles": "Isaiah 25",
+      "pentateuch": "Exodus 30-31",
+      "chronicles": "Nehemiah 11:1-12:26",
       "gospels": "1 Corinthians 7"
     },
     "2026-03-27": {
       "psalms": "Psalm 86",
-      "pentateuch": "Exodus 29:31-30:38",
-      "chronicles": "Isaiah 26",
+      "pentateuch": "Exodus 32",
+      "chronicles": "Nehemiah 12:27-47",
       "gospels": "1 Corinthians 8"
     },
     "2026-03-28": {
       "psalms": "Psalm 87",
-      "pentateuch": "Exodus 31",
-      "chronicles": "Isaiah 27",
+      "pentateuch": "Exodus 33",
+      "chronicles": "Nehemiah 13",
       "gospels": "1 Corinthians 9"
     },
     "2026-03-29": {
       "psalms": "Psalm 88",
-      "pentateuch": "Exodus 32",
-      "chronicles": "Isaiah 28",
+      "pentateuch": "Exodus 34",
+      "chronicles": "Esther 1",
       "gospels": "1 Corinthians 10"
     },
     "2026-03-30": {
       "psalms": "Psalm 89",
-      "pentateuch": "Exodus 33",
-      "chronicles": "Isaiah 29",
+      "pentateuch": "Exodus 35:1-29",
+      "chronicles": "Esther 2",
       "gospels": "1 Corinthians 11"
     },
     "2026-03-31": {
       "psalms": "Psalm 90",
-      "pentateuch": "Exodus 34",
-      "chronicles": "Isaiah 30",
+      "pentateuch": "Exodus 35:30-36:38",
+      "chronicles": "Esther 3",
       "gospels": "1 Corinthians 12"
     },
     "2026-04-01": {
       "psalms": "Psalm 91",
-      "pentateuch": "Exodus 35",
-      "chronicles": "Isaiah 31",
-      "gospels": "1 Corinthians 13"
+      "pentateuch": "Exodus 37",
+      "chronicles": "Esther 4",
+      "gospels": "1 Corinthians 9"
     },
     "2026-04-02": {
       "psalms": "Psalm 92",
-      "pentateuch": "Exodus 36",
-      "chronicles": "Isaiah 32",
-      "gospels": "1 Corinthians 14"
+      "pentateuch": "Exodus 38",
+      "chronicles": "Esther 5",
+      "gospels": "1 Corinthians 10:1-11:1"
     },
     "2026-04-03": {
       "psalms": "Psalm 93",
-      "pentateuch": "Exodus 37",
-      "chronicles": "Isaiah 33",
-      "gospels": "1 Corinthians 15"
+      "pentateuch": "Exodus 39",
+      "chronicles": "Esther 6",
+      "gospels": "1 Corinthians 11:2-34"
     },
     "2026-04-04": {
       "psalms": "Psalm 94",
-      "pentateuch": "Exodus 38",
-      "chronicles": "Isaiah 34",
-      "gospels": "1 Corinthians 16"
+      "pentateuch": "Exodus 40",
+      "chronicles": "Esther 7",
+      "gospels": "1 Corinthians 12"
     },
     "2026-04-05": {
       "psalms": "Psalm 95",
-      "pentateuch": "Exodus 39",
-      "chronicles": "Isaiah 35",
-      "gospels": "2 Corinthians 1"
+      "pentateuch": "Leviticus 1",
+      "chronicles": "Esther 8",
+      "gospels": "1 Corinthians 13"
     },
     "2026-04-06": {
       "psalms": "Psalm 96",
-      "pentateuch": "Exodus 40",
-      "chronicles": "Isaiah 36",
-      "gospels": "2 Corinthians 2"
+      "pentateuch": "Leviticus 2",
+      "chronicles": "Esther 9-10",
+      "gospels": "1 Corinthians 14"
     },
     "2026-04-07": {
       "psalms": "Psalm 97",
-      "pentateuch": "Leviticus 1",
-      "chronicles": "Isaiah 37",
-      "gospels": "2 Corinthians 3"
+      "pentateuch": "Leviticus 3",
+      "chronicles": "Isaiah 1",
+      "gospels": "1 Corinthians 15"
     },
     "2026-04-08": {
       "psalms": "Psalm 98",
-      "pentateuch": "Leviticus 2",
-      "chronicles": "Isaiah 38",
-      "gospels": "2 Corinthians 4"
+      "pentateuch": "Leviticus 4:1-5:13",
+      "chronicles": "Isaiah 2",
+      "gospels": "1 Corinthians 16"
     },
     "2026-04-09": {
       "psalms": "Psalm 99",
-      "pentateuch": "Leviticus 3",
-      "chronicles": "Isaiah 39",
-      "gospels": "2 Corinthians 5"
+      "pentateuch": "Leviticus 5:14-6:7",
+      "chronicles": "Isaiah 3-4",
+      "gospels": "2 Corinthians 1:1-11"
     },
     "2026-04-10": {
       "psalms": "Psalm 100",
-      "pentateuch": "Leviticus 4",
-      "chronicles": "Isaiah 40",
-      "gospels": "2 Corinthians 6"
+      "pentateuch": "Leviticus 6:8-7:38",
+      "chronicles": "Isaiah 5",
+      "gospels": "2 Corinthians 1:12-2:11"
     },
     "2026-04-11": {
       "psalms": "Psalm 101",
-      "pentateuch": "Leviticus 5",
-      "chronicles": "Isaiah 41",
-      "gospels": "2 Corinthians 7"
+      "pentateuch": "Leviticus 8",
+      "chronicles": "Isaiah 6",
+      "gospels": "2 Corinthians 2:12-3:18"
     },
     "2026-04-12": {
       "psalms": "Psalm 102",
-      "pentateuch": "Leviticus 6:1-13",
-      "chronicles": "Isaiah 42",
-      "gospels": "2 Corinthians 8"
+      "pentateuch": "Leviticus 9",
+      "chronicles": "Isaiah 7-8",
+      "gospels": "2 Corinthians 4:1-5:10"
     },
     "2026-04-13": {
       "psalms": "Psalm 103",
-      "pentateuch": "Leviticus 6:14-30",
-      "chronicles": "Isaiah 43",
-      "gospels": "2 Corinthians 9"
+      "pentateuch": "Leviticus 10",
+      "chronicles": "Isaiah 9:1-7",
+      "gospels": "2 Corinthians 5:11-6:10"
     },
     "2026-04-14": {
       "psalms": "Psalm 104",
-      "pentateuch": "Leviticus 7",
-      "chronicles": "Isaiah 44",
-      "gospels": "2 Corinthians 10"
+      "pentateuch": "Leviticus 11",
+      "chronicles": "Isaiah 9:8-10:34",
+      "gospels": "2 Corinthians 6:11-7:16"
     },
     "2026-04-15": {
       "psalms": "Psalm 105",
-      "pentateuch": "Leviticus 8",
-      "chronicles": "Isaiah 45",
-      "gospels": "2 Corinthians 11"
+      "pentateuch": "Leviticus 12",
+      "chronicles": "Isaiah 11-12",
+      "gospels": "2 Corinthians 8-9"
     },
     "2026-04-16": {
       "psalms": "Psalm 106",
-      "pentateuch": "Leviticus 9",
-      "chronicles": "Isaiah 46",
-      "gospels": "2 Corinthians 12"
+      "pentateuch": "Leviticus 13",
+      "chronicles": "Isaiah 13-14",
+      "gospels": "2 Corinthians 10:1-12"
     },
     "2026-04-17": {
       "psalms": "Psalm 107",
-      "pentateuch": "Leviticus 10",
-      "chronicles": "Isaiah 47",
-      "gospels": "2 Corinthians 13"
+      "pentateuch": "Leviticus 14:1-32",
+      "chronicles": "Isaiah 15-16",
+      "gospels": "2 Corinthians 10:13-12:13"
     },
     "2026-04-18": {
       "psalms": "Psalm 108",
-      "pentateuch": "Leviticus 11",
-      "chronicles": "Isaiah 48",
-      "gospels": "Galatians 1"
+      "pentateuch": "Leviticus 14:33-57",
+      "chronicles": "Isaiah 17-18",
+      "gospels": "2 Corinthians 12:14-13:14"
     },
     "2026-04-19": {
       "psalms": "Psalm 109",
-      "pentateuch": "Leviticus 12-13",
-      "chronicles": "Isaiah 49",
-      "gospels": "Galatians 2"
+      "pentateuch": "Leviticus 15",
+      "chronicles": "Isaiah 19-20",
+      "gospels": "Galatians 1:1-10"
     },
     "2026-04-20": {
       "psalms": "Psalm 110",
-      "pentateuch": "Leviticus 14",
-      "chronicles": "Isaiah 50",
-      "gospels": "Galatians 3:1-14"
+      "pentateuch": "Leviticus 16",
+      "chronicles": "Isaiah 21",
+      "gospels": "Galatians 1:11-24"
     },
     "2026-04-21": {
       "psalms": "Psalm 111",
-      "pentateuch": "Leviticus 15",
-      "chronicles": "Isaiah 51",
-      "gospels": "Galatians 3:15-29"
+      "pentateuch": "Leviticus 17",
+      "chronicles": "Isaiah 22",
+      "gospels": "Galatians 2"
     },
     "2026-04-22": {
       "psalms": "Psalm 112",
-      "pentateuch": "Leviticus 16",
-      "chronicles": "Isaiah 52",
-      "gospels": "Galatians 4:1-16"
+      "pentateuch": "Leviticus 18",
+      "chronicles": "Isaiah 23",
+      "gospels": "Galatians 3"
     },
     "2026-04-23": {
       "psalms": "Psalm 113",
-      "pentateuch": "Leviticus 17",
-      "chronicles": "Isaiah 53",
-      "gospels": "Galatians 4:17-31"
+      "pentateuch": "Leviticus 19",
+      "chronicles": "Isaiah 24",
+      "gospels": "Galatians 4"
     },
     "2026-04-24": {
       "psalms": "Psalm 114",
-      "pentateuch": "Leviticus 18",
-      "chronicles": "Isaiah 54",
-      "gospels": "Galatians 5:1-12"
+      "pentateuch": "Leviticus 20",
+      "chronicles": "Isaiah 25",
+      "gospels": "Galatians 5"
     },
     "2026-04-25": {
       "psalms": "Psalm 115",
-      "pentateuch": "Leviticus 19",
-      "chronicles": "Isaiah 55",
-      "gospels": "Galatians 5:13-26"
+      "pentateuch": "Leviticus 21:1-22:16",
+      "chronicles": "Isaiah 26-27",
+      "gospels": "Galatians 6"
     },
     "2026-04-26": {
       "psalms": "Psalm 116",
-      "pentateuch": "Leviticus 20",
-      "chronicles": "Isaiah 56",
-      "gospels": "Galatians 6"
+      "pentateuch": "Leviticus 22:17-33",
+      "chronicles": "Isaiah 28",
+      "gospels": "Ephesians 1"
     },
     "2026-04-27": {
       "psalms": "Psalm 117",
-      "pentateuch": "Leviticus 21",
-      "chronicles": "Isaiah 57",
-      "gospels": "Ephesians 1"
+      "pentateuch": "Leviticus 23",
+      "chronicles": "Isaiah 29:1-30:17",
+      "gospels": "Ephesians 2"
     },
     "2026-04-28": {
       "psalms": "Psalm 118",
-      "pentateuch": "Leviticus 22",
-      "chronicles": "Isaiah 58",
-      "gospels": "Ephesians 2"
+      "pentateuch": "Leviticus 24",
+      "chronicles": "Isaiah 30:18-32:20",
+      "gospels": "Ephesians 3"
     },
     "2026-04-29": {
       "psalms": "Psalm 119:1-88",
-      "pentateuch": "Leviticus 23",
-      "chronicles": "Isaiah 59",
-      "gospels": "Ephesians 3"
+      "pentateuch": "Leviticus 25",
+      "chronicles": "Isaiah 33-34",
+      "gospels": "Ephesians 4:1-16"
     },
     "2026-04-30": {
       "psalms": "Psalm 119:89-176",
-      "pentateuch": "Leviticus 24",
-      "chronicles": "Isaiah 60",
-      "gospels": "Ephesians 4"
+      "pentateuch": "Leviticus 26",
+      "chronicles": "Isaiah 35",
+      "gospels": "Ephesians 4:17-32"
     },
     "2026-05-01": {
       "psalms": "Psalm 120",
-      "pentateuch": "Leviticus 25",
-      "chronicles": "Isaiah 61",
+      "pentateuch": "Leviticus 27",
+      "chronicles": "Isaiah 36-37",
       "gospels": "Ephesians 5:1-21"
     },
     "2026-05-02": {
       "psalms": "Psalm 121",
-      "pentateuch": "Leviticus 26",
-      "chronicles": "Isaiah 62",
+      "pentateuch": "Numbers 1",
+      "chronicles": "Isaiah 38",
       "gospels": "Ephesians 5:22-6:9"
     },
     "2026-05-03": {
       "psalms": "Psalm 122",
-      "pentateuch": "Leviticus 27",
-      "chronicles": "Isaiah 63",
+      "pentateuch": "Numbers 2",
+      "chronicles": "Isaiah 39",
       "gospels": "Ephesians 6:10-24"
     },
     "2026-05-04": {
       "psalms": "Psalm 123",
-      "pentateuch": "Numbers 1",
-      "chronicles": "Isaiah 64",
-      "gospels": "Philippians 1"
+      "pentateuch": "Numbers 3-4",
+      "chronicles": "Isaiah 40",
+      "gospels": "Philippians 1:1-26"
     },
     "2026-05-05": {
       "psalms": "Psalm 124",
-      "pentateuch": "Numbers 2",
-      "chronicles": "Isaiah 65",
-      "gospels": "Philippians 2"
+      "pentateuch": "Numbers 5",
+      "chronicles": "Isaiah 41",
+      "gospels": "Philippians 1:27-2:11"
     },
     "2026-05-06": {
       "psalms": "Psalm 125",
-      "pentateuch": "Numbers 3",
-      "chronicles": "Isaiah 66",
-      "gospels": "Philippians 3"
+      "pentateuch": "Numbers 6",
+      "chronicles": "Isaiah 42",
+      "gospels": "Philippians 2:12-30"
     },
     "2026-05-07": {
       "psalms": "Psalm 126",
-      "pentateuch": "Numbers 4",
-      "chronicles": "Hosea 1-2",
-      "gospels": "Philippians 4"
+      "pentateuch": "Numbers 7",
+      "chronicles": "Isaiah 43:1-44:5",
+      "gospels": "Philippians 3:1-4:1"
     },
     "2026-05-08": {
       "psalms": "Psalm 127",
-      "pentateuch": "Numbers 5",
-      "chronicles": "Hosea 3-4",
-      "gospels": "Colossians 1"
+      "pentateuch": "Numbers 8",
+      "chronicles": "Isaiah 44:6-28",
+      "gospels": "Philippians 4:2-23"
     },
     "2026-05-09": {
       "psalms": "Psalm 128",
-      "pentateuch": "Numbers 6",
-      "chronicles": "Hosea 5-6",
-      "gospels": "Colossians 2"
+      "pentateuch": "Numbers 9:1-14",
+      "chronicles": "Isaiah 45",
+      "gospels": "Colossians 1:1-20"
     },
     "2026-05-10": {
       "psalms": "Psalm 129",
-      "pentateuch": "Numbers 7:1-65",
-      "chronicles": "Hosea 7",
-      "gospels": "Colossians 3"
+      "pentateuch": "Numbers 9:15-10:10",
+      "chronicles": "Isaiah 46-47",
+      "gospels": "Colossians 1:21-2:5"
     },
     "2026-05-11": {
       "psalms": "Psalm 130",
-      "pentateuch": "Numbers 7:66-89",
-      "chronicles": "Hosea 8",
-      "gospels": "Colossians 4"
+      "pentateuch": "Numbers 10:11-36",
+      "chronicles": "Isaiah 48-49",
+      "gospels": "Colossians 2:6-23"
     },
     "2026-05-12": {
       "psalms": "Psalm 131",
-      "pentateuch": "Numbers 8",
-      "chronicles": "Hosea 9",
-      "gospels": "1 Thessalonians 1"
+      "pentateuch": "Numbers 11",
+      "chronicles": "Isaiah 50",
+      "gospels": "Colossians 3:1-17"
     },
     "2026-05-13": {
       "psalms": "Psalm 132",
-      "pentateuch": "Numbers 9",
-      "chronicles": "Hosea 10",
-      "gospels": "1 Thessalonians 2"
+      "pentateuch": "Numbers 12",
+      "chronicles": "Isaiah 51:1-52:12",
+      "gospels": "Colossians 3:18-4:18"
     },
     "2026-05-14": {
       "psalms": "Psalm 133",
-      "pentateuch": "Numbers 10",
-      "chronicles": "Hosea 11-12",
-      "gospels": "1 Thessalonians 3"
+      "pentateuch": "Numbers 13-14",
+      "chronicles": "Isaiah 52:13-53:12",
+      "gospels": "1 Thessalonians 1"
     },
     "2026-05-15": {
       "psalms": "Psalm 134",
-      "pentateuch": "Numbers 11",
-      "chronicles": "Hosea 13-14",
-      "gospels": "1 Thessalonians 4"
+      "pentateuch": "Numbers 15",
+      "chronicles": "Isaiah 54",
+      "gospels": "1 Thessalonians 2:1-16"
     },
     "2026-05-16": {
       "psalms": "Psalm 135",
-      "pentateuch": "Numbers 12",
-      "chronicles": "Joel 1",
-      "gospels": "1 Thessalonians 5"
+      "pentateuch": "Numbers 16-17",
+      "chronicles": "Isaiah 55",
+      "gospels": "1 Thessalonians 2:17-3:13"
     },
     "2026-05-17": {
       "psalms": "Psalm 136",
-      "pentateuch": "Numbers 13",
-      "chronicles": "Joel 2",
-      "gospels": "2 Thessalonians 1"
+      "pentateuch": "Numbers 18-19",
+      "chronicles": "Isaiah 56-57",
+      "gospels": "1 Thessalonians 4:1-12"
     },
     "2026-05-18": {
       "psalms": "Psalm 137",
-      "pentateuch": "Numbers 14",
-      "chronicles": "Joel 3",
-      "gospels": "2 Thessalonians 2"
+      "pentateuch": "Numbers 20-21",
+      "chronicles": "Isaiah 58",
+      "gospels": "1 Thessalonians 4:13-5:11"
     },
     "2026-05-19": {
       "psalms": "Psalm 138",
-      "pentateuch": "Numbers 15",
-      "chronicles": "Amos 1-2",
-      "gospels": "2 Thessalonians 3"
+      "pentateuch": "Numbers 22",
+      "chronicles": "Isaiah 59",
+      "gospels": "1 Thessalonians 5:12-22"
     },
     "2026-05-20": {
       "psalms": "Psalm 139",
-      "pentateuch": "Numbers 16",
-      "chronicles": "Amos 3-4",
-      "gospels": "1 Timothy 1"
+      "pentateuch": "Numbers 23-24",
+      "chronicles": "Isaiah 60",
+      "gospels": "1 Thessalonians 5:23-28"
     },
     "2026-05-21": {
       "psalms": "Psalm 140",
-      "pentateuch": "Numbers 17-18",
-      "chronicles": "Amos 5-6",
-      "gospels": "1 Timothy 2"
+      "pentateuch": "Numbers 25",
+      "chronicles": "Isaiah 61-62",
+      "gospels": "2 Thessalonians 1"
     },
     "2026-05-22": {
       "psalms": "Psalm 141",
-      "pentateuch": "Numbers 19",
-      "chronicles": "Amos 7-9",
-      "gospels": "1 Timothy 3"
+      "pentateuch": "Numbers 26",
+      "chronicles": "Isaiah 63-64",
+      "gospels": "2 Thessalonians 2:1-12"
     },
     "2026-05-23": {
       "psalms": "Psalm 142",
-      "pentateuch": "Numbers 20",
-      "chronicles": "Obadiah 1-14",
-      "gospels": "1 Timothy 4"
+      "pentateuch": "Numbers 27",
+      "chronicles": "Isaiah 65",
+      "gospels": "2 Thessalonians 2:13-3:5"
     },
     "2026-05-24": {
       "psalms": "Psalm 143",
-      "pentateuch": "Numbers 21",
-      "chronicles": "Jonah 1",
-      "gospels": "1 Timothy 5"
+      "pentateuch": "Numbers 28-29",
+      "chronicles": "Isaiah 66",
+      "gospels": "2 Thessalonians 3:6-18"
     },
     "2026-05-25": {
       "psalms": "Psalm 144",
-      "pentateuch": "Numbers 22",
-      "chronicles": "Jonah 2",
-      "gospels": "1 Timothy 6"
+      "pentateuch": "Numbers 30",
+      "chronicles": "Obadiah 1-14",
+      "gospels": "1 Timothy 1"
     },
     "2026-05-26": {
       "psalms": "Psalm 145",
-      "pentateuch": "Numbers 23",
-      "chronicles": "Jonah 3",
-      "gospels": "2 Timothy 1"
+      "pentateuch": "Numbers 31",
+      "chronicles": "Obadiah 15-21",
+      "gospels": "1 Timothy 2"
     },
     "2026-05-27": {
       "psalms": "Psalm 146",
-      "pentateuch": "Numbers 24",
-      "chronicles": "Jonah 4",
-      "gospels": "2 Timothy 2"
+      "pentateuch": "Numbers 32",
+      "chronicles": "Joel 1",
+      "gospels": "1 Timothy 3"
     },
     "2026-05-28": {
       "psalms": "Psalm 147",
-      "pentateuch": "Numbers 25",
-      "chronicles": "Micah 1-2",
-      "gospels": "2 Timothy 3"
+      "pentateuch": "Numbers 33:1-49",
+      "chronicles": "Joel 2:1-17",
+      "gospels": "1 Timothy 4"
     },
     "2026-05-29": {
       "psalms": "Psalm 148",
-      "pentateuch": "Numbers 26",
-      "chronicles": "Micah 3-4",
-      "gospels": "2 Timothy 4"
+      "pentateuch": "Numbers 33:50-34:29",
+      "chronicles": "Joel 2:18-27",
+      "gospels": "1 Timothy 5:1-6:2"
     },
     "2026-05-30": {
       "psalms": "Psalm 149",
-      "pentateuch": "Numbers 27",
-      "chronicles": "Micah 5",
-      "gospels": "Titus 1"
+      "pentateuch": "Numbers 35-36",
+      "chronicles": "Joel 2:28-3:21",
+      "gospels": "1 Timothy 6:3-21"
     },
     "2026-05-31": {
       "psalms": "Psalm 150",
-      "pentateuch": "Numbers 28",
-      "chronicles": "Micah 6-7",
-      "gospels": "Titus 2"
-    },
-    "2026-06-01": {
-      "psalms": "Proverbs 1",
       "pentateuch": "Deuteronomy 1",
       "chronicles": "Jonah 1",
+      "gospels": "2 Timothy 1:1-7"
+    },
+    "2026-06-01": {
+      "psalms": "Proverbs 1:1-7",
+      "pentateuch": "Deuteronomy 2",
+      "chronicles": "Jonah 2",
       "gospels": "Titus 3"
     },
     "2026-06-02": {
-      "psalms": "Proverbs 2",
-      "pentateuch": "Deuteronomy 2",
-      "chronicles": "Jonah 2",
+      "psalms": "Proverbs 1:8-19",
+      "pentateuch": "Deuteronomy 3",
+      "chronicles": "Jonah 3",
       "gospels": "Philemon"
     },
     "2026-06-03": {
-      "psalms": "Proverbs 3",
-      "pentateuch": "Deuteronomy 3",
-      "chronicles": "Jonah 3",
+      "psalms": "Proverbs 1:20-33",
+      "pentateuch": "Deuteronomy 4",
+      "chronicles": "Jonah 4",
       "gospels": "Hebrews 1"
     },
     "2026-06-04": {
-      "psalms": "Proverbs 4",
-      "pentateuch": "Deuteronomy 4",
-      "chronicles": "Jonah 4",
+      "psalms": "Proverbs 2",
+      "pentateuch": "Deuteronomy 5",
+      "chronicles": "Hosea 1:1-2:1",
       "gospels": "Hebrews 2"
     },
     "2026-06-05": {
-      "psalms": "Proverbs 5",
-      "pentateuch": "Deuteronomy 5",
-      "chronicles": "Nahum 1",
+      "psalms": "Proverbs 3:1-12",
+      "pentateuch": "Deuteronomy 6",
+      "chronicles": "Hosea 2:2-23",
       "gospels": "Hebrews 3"
     },
     "2026-06-06": {
-      "psalms": "Proverbs 6",
-      "pentateuch": "Deuteronomy 6",
-      "chronicles": "Nahum 2",
+      "psalms": "Proverbs 3:13-20",
+      "pentateuch": "Deuteronomy 7",
+      "chronicles": "Hosea 3",
       "gospels": "Hebrews 4"
     },
     "2026-06-07": {
-      "psalms": "Proverbs 7",
-      "pentateuch": "Deuteronomy 7",
-      "chronicles": "Nahum 3",
+      "psalms": "Proverbs 3:21-35",
+      "pentateuch": "Deuteronomy 8:1-9:5",
+      "chronicles": "Hosea 4-5",
       "gospels": "Hebrews 5"
     },
     "2026-06-08": {
-      "psalms": "Proverbs 8",
-      "pentateuch": "Deuteronomy 8",
-      "chronicles": "Habakkuk 1",
+      "psalms": "Proverbs 4",
+      "pentateuch": "Deuteronomy 9:6-10:11",
+      "chronicles": "Hosea 6-7",
       "gospels": "Hebrews 6"
     },
     "2026-06-09": {
-      "psalms": "Proverbs 9",
-      "pentateuch": "Deuteronomy 9",
-      "chronicles": "Habakkuk 2",
+      "psalms": "Proverbs 5",
+      "pentateuch": "Deuteronomy 10:12-11:32",
+      "chronicles": "Hosea 8",
       "gospels": "Hebrews 7"
     },
     "2026-06-10": {
-      "psalms": "Proverbs 10",
-      "pentateuch": "Deuteronomy 10",
-      "chronicles": "Habakkuk 3",
+      "psalms": "Proverbs 6:1-19",
+      "pentateuch": "Deuteronomy 12",
+      "chronicles": "Hosea 9",
       "gospels": "Hebrews 8"
     },
     "2026-06-11": {
-      "psalms": "Proverbs 11",
-      "pentateuch": "Deuteronomy 11",
-      "chronicles": "Zephaniah 1",
+      "psalms": "Proverbs 6:20-35",
+      "pentateuch": "Deuteronomy 13",
+      "chronicles": "Hosea 10",
       "gospels": "Hebrews 9"
     },
     "2026-06-12": {
-      "psalms": "Proverbs 12",
-      "pentateuch": "Deuteronomy 12",
-      "chronicles": "Zephaniah 2",
+      "psalms": "Proverbs 7",
+      "pentateuch": "Deuteronomy 14",
+      "chronicles": "Hosea 11:1-11",
       "gospels": "Hebrews 10"
     },
     "2026-06-13": {
-      "psalms": "Proverbs 13",
-      "pentateuch": "Deuteronomy 13",
-      "chronicles": "Zephaniah 3",
+      "psalms": "Proverbs 8",
+      "pentateuch": "Deuteronomy 15:1-18",
+      "chronicles": "Hosea 11:12-13:16",
       "gospels": "Hebrews 11"
     },
     "2026-06-14": {
-      "psalms": "Proverbs 14",
-      "pentateuch": "Deuteronomy 14",
-      "chronicles": "Haggai 1",
+      "psalms": "Proverbs 9",
+      "pentateuch": "Deuteronomy 15:19-16:17",
+      "chronicles": "Hosea 14",
       "gospels": "Hebrews 12"
     },
     "2026-06-15": {
-      "psalms": "Proverbs 15",
-      "pentateuch": "Deuteronomy 15",
-      "chronicles": "Haggai 2",
+      "psalms": "Proverbs 10",
+      "pentateuch": "Deuteronomy 16:18-17:20",
+      "chronicles": "Amos 1:1-2:5",
       "gospels": "Hebrews 13"
     },
     "2026-06-16": {
-      "psalms": "Proverbs 16",
-      "pentateuch": "Deuteronomy 16",
-      "chronicles": "Zechariah 1",
+      "psalms": "Proverbs 11-12",
+      "pentateuch": "Deuteronomy 18",
+      "chronicles": "Amos 2:6-16",
       "gospels": "James 1"
     },
     "2026-06-17": {
-      "psalms": "Proverbs 17",
-      "pentateuch": "Deuteronomy 17",
-      "chronicles": "Zechariah 2-3",
+      "psalms": "Proverbs 13-14",
+      "pentateuch": "Deuteronomy 19",
+      "chronicles": "Amos 3",
       "gospels": "James 2"
     },
     "2026-06-18": {
-      "psalms": "Proverbs 18",
-      "pentateuch": "Deuteronomy 18",
-      "chronicles": "Zechariah 4-5",
+      "psalms": "Proverbs 15-16",
+      "pentateuch": "Deuteronomy 20",
+      "chronicles": "Amos 4",
       "gospels": "James 3"
     },
     "2026-06-19": {
-      "psalms": "Proverbs 19",
-      "pentateuch": "Deuteronomy 19",
-      "chronicles": "Zechariah 6-7",
+      "psalms": "Proverbs 17-18",
+      "pentateuch": "Deuteronomy 21:1-22:12",
+      "chronicles": "Amos 5",
       "gospels": "James 4"
     },
     "2026-06-20": {
-      "psalms": "Proverbs 20",
-      "pentateuch": "Deuteronomy 20",
-      "chronicles": "Zechariah 8",
+      "psalms": "Proverbs 19-20",
+      "pentateuch": "Deuteronomy 22:13-30",
+      "chronicles": "Amos 6",
       "gospels": "James 5"
     },
     "2026-06-21": {
-      "psalms": "Proverbs 21",
-      "pentateuch": "Deuteronomy 21",
-      "chronicles": "Zechariah 9",
+      "psalms": "Proverbs 21-22",
+      "pentateuch": "Deuteronomy 23:1-14",
+      "chronicles": "Amos 7-8",
       "gospels": "1 Peter 1:1-12"
     },
     "2026-06-22": {
-      "psalms": "Proverbs 22",
-      "pentateuch": "Deuteronomy 22",
-      "chronicles": "Zechariah 10-11",
+      "psalms": "Proverbs 23-24",
+      "pentateuch": "Deuteronomy 23:15-25:19",
+      "chronicles": "Amos 9",
       "gospels": "1 Peter 1:13-2:3"
     },
     "2026-06-23": {
-      "psalms": "Proverbs 23",
-      "pentateuch": "Deuteronomy 23",
-      "chronicles": "Zechariah 12-13",
+      "psalms": "Proverbs 25-26",
+      "pentateuch": "Deuteronomy 26",
+      "chronicles": "Micah 1-2",
       "gospels": "1 Peter 2:4-25"
     },
     "2026-06-24": {
-      "psalms": "Proverbs 24",
-      "pentateuch": "Deuteronomy 24",
-      "chronicles": "Zechariah 14",
+      "psalms": "Proverbs 27-28",
+      "pentateuch": "Deuteronomy 27",
+      "chronicles": "Micah 3",
       "gospels": "1 Peter 3"
     },
     "2026-06-25": {
-      "psalms": "Proverbs 25",
-      "pentateuch": "Deuteronomy 25",
-      "chronicles": "Malachi 1",
+      "psalms": "Proverbs 29",
+      "pentateuch": "Deuteronomy 28:1-14",
+      "chronicles": "Micah 4",
       "gospels": "1 Peter 4"
     },
     "2026-06-26": {
-      "psalms": "Proverbs 26",
-      "pentateuch": "Deuteronomy 26",
-      "chronicles": "Malachi 2",
+      "psalms": "Proverbs 30:1-31:9",
+      "pentateuch": "Deuteronomy 28:15-68",
+      "chronicles": "Micah 5",
       "gospels": "1 Peter 5"
     },
     "2026-06-27": {
-      "psalms": "Proverbs 27",
-      "pentateuch": "Deuteronomy 27",
-      "chronicles": "Malachi 3",
+      "psalms": "Proverbs 31:10-31",
+      "pentateuch": "Deuteronomy 29:1-30:10",
+      "chronicles": "Micah 6",
       "gospels": "2 Peter 1"
     },
     "2026-06-28": {
-      "psalms": "Proverbs 28",
-      "pentateuch": "Deuteronomy 28:1-14",
-      "chronicles": "Malachi 4",
+      "psalms": "Ecclesiastes 1:1-3",
+      "pentateuch": "Deuteronomy 30:11-20",
+      "chronicles": "Micah 7:1-13",
       "gospels": "2 Peter 2"
     },
     "2026-06-29": {
-      "psalms": "Proverbs 29",
-      "pentateuch": "Deuteronomy 28:15-68",
-      "chronicles": "Jeremiah 1",
+      "psalms": "Ecclesiastes 1:4-11",
+      "pentateuch": "Deuteronomy 31:1-29",
+      "chronicles": "Micah 7:14-20",
       "gospels": "2 Peter 3"
     },
     "2026-06-30": {
-      "psalms": "Proverbs 30-31",
-      "pentateuch": "Deuteronomy 29",
-      "chronicles": "Jeremiah 2",
+      "psalms": "Ecclesiastes 1:12-18",
+      "pentateuch": "Deuteronomy 31:30-32:47",
+      "chronicles": "Nahum 1",
       "gospels": "1 John 1"
     },
     "2026-07-01": {
-      "psalms": "Ecclesiastes 1-2:11",
+      "psalms": "Ecclesiastes 2:1-11",
       "pentateuch": "Deuteronomy 32:48-33:29",
       "chronicles": "Nahum 2:1-3:4",
       "gospels": "Matthew 10"
@@ -1291,922 +1292,922 @@
       "gospels": "Hebrews 9:11-10:18"
     },
     "2026-08-01": {
-      "psalms": "Job 12",
-      "pentateuch": "Judges 13",
-      "chronicles": "Jeremiah 34",
-      "gospels": "Matthew 24:1-31"
+      "psalms": "Song of Solomon 8:1-7",
+      "pentateuch": "Judges 11:4-40",
+      "chronicles": "Jeremiah 26",
+      "gospels": "Hebrews 10:19-39"
     },
     "2026-08-02": {
-      "psalms": "Job 13",
-      "pentateuch": "Judges 14",
-      "chronicles": "Jeremiah 35",
-      "gospels": "Matthew 24:32-25:13"
+      "psalms": "Song of Solomon 8:8-14",
+      "pentateuch": "Judges 12",
+      "chronicles": "Jeremiah 27-28",
+      "gospels": "Hebrews 11:1-12:2"
     },
     "2026-08-03": {
-      "psalms": "Job 14",
-      "pentateuch": "Judges 15",
-      "chronicles": "Jeremiah 36",
-      "gospels": "Matthew 25:14-46"
+      "psalms": "Psalm 1",
+      "pentateuch": "Judges 13",
+      "chronicles": "Jeremiah 29",
+      "gospels": "Hebrews 12:3-29"
     },
     "2026-08-04": {
-      "psalms": "Job 15",
-      "pentateuch": "Judges 16",
-      "chronicles": "Jeremiah 37",
-      "gospels": "Matthew 26:1-30"
+      "psalms": "Psalm 2",
+      "pentateuch": "Judges 14",
+      "chronicles": "Jeremiah 30",
+      "gospels": "Hebrews 13:1-19"
     },
     "2026-08-05": {
-      "psalms": "Job 16",
-      "pentateuch": "Judges 17-18",
-      "chronicles": "Jeremiah 38",
-      "gospels": "Matthew 26:31-75"
+      "psalms": "Psalm 3",
+      "pentateuch": "Judges 15",
+      "chronicles": "Jeremiah 31",
+      "gospels": "Hebrews 13:20-25"
     },
     "2026-08-06": {
-      "psalms": "Job 17",
-      "pentateuch": "Judges 19",
-      "chronicles": "Jeremiah 39",
-      "gospels": "Matthew 27:1-26"
+      "psalms": "Psalm 4",
+      "pentateuch": "Judges 16",
+      "chronicles": "Jeremiah 32",
+      "gospels": "Mark 1"
     },
     "2026-08-07": {
-      "psalms": "Job 18",
-      "pentateuch": "Judges 20",
-      "chronicles": "Jeremiah 40",
-      "gospels": "Matthew 27:27-66"
+      "psalms": "Psalm 5",
+      "pentateuch": "Judges 17",
+      "chronicles": "Jeremiah 33",
+      "gospels": "Mark 2-3"
     },
     "2026-08-08": {
-      "psalms": "Job 19",
-      "pentateuch": "Judges 21",
-      "chronicles": "Jeremiah 41",
-      "gospels": "Matthew 28"
+      "psalms": "Psalm 6",
+      "pentateuch": "Judges 18",
+      "chronicles": "Jeremiah 34",
+      "gospels": "Mark 4:1-34"
     },
     "2026-08-09": {
-      "psalms": "Job 20",
-      "pentateuch": "Ruth 1",
-      "chronicles": "Jeremiah 42",
-      "gospels": "Mark 1:1-20"
+      "psalms": "Psalm 7",
+      "pentateuch": "Judges 19",
+      "chronicles": "Jeremiah 35",
+      "gospels": "Mark 4:35-5:43"
     },
     "2026-08-10": {
-      "psalms": "Job 21",
-      "pentateuch": "Ruth 2",
-      "chronicles": "Jeremiah 43",
-      "gospels": "Mark 1:21-45"
+      "psalms": "Psalm 8",
+      "pentateuch": "Judges 20",
+      "chronicles": "Jeremiah 36",
+      "gospels": "Mark 6"
     },
     "2026-08-11": {
-      "psalms": "Job 22",
-      "pentateuch": "Ruth 3",
-      "chronicles": "Jeremiah 44",
-      "gospels": "Mark 2"
+      "psalms": "Psalm 9",
+      "pentateuch": "Judges 21",
+      "chronicles": "Jeremiah 37",
+      "gospels": "Mark 7:1-8:26"
     },
     "2026-08-12": {
-      "psalms": "Job 23",
-      "pentateuch": "Ruth 4",
-      "chronicles": "Jeremiah 45",
-      "gospels": "Mark 3"
+      "psalms": "Psalm 10",
+      "pentateuch": "Ruth 1",
+      "chronicles": "Jeremiah 38",
+      "gospels": "Mark 8:27-9:50"
     },
     "2026-08-13": {
-      "psalms": "Job 24",
-      "pentateuch": "1 Samuel 1",
-      "chronicles": "Jeremiah 46",
-      "gospels": "Mark 4:1-20"
+      "psalms": "Psalm 11",
+      "pentateuch": "Ruth 2",
+      "chronicles": "Jeremiah 39",
+      "gospels": "Mark 10"
     },
     "2026-08-14": {
-      "psalms": "Job 25-26",
-      "pentateuch": "1 Samuel 2",
-      "chronicles": "Jeremiah 47",
-      "gospels": "Mark 4:21-5:20"
-    },
-    "2026-08-15": {
-      "psalms": "Job 27",
-      "pentateuch": "1 Samuel 3",
-      "chronicles": "Jeremiah 48",
-      "gospels": "Mark 5:21-43"
-    },
-    "2026-08-16": {
-      "psalms": "Job 28",
-      "pentateuch": "1 Samuel 4",
-      "chronicles": "Jeremiah 49",
-      "gospels": "Mark 6:1-29"
-    },
-    "2026-08-17": {
-      "psalms": "Job 29",
-      "pentateuch": "1 Samuel 5-6",
-      "chronicles": "Jeremiah 50",
-      "gospels": "Mark 6:30-56"
-    },
-    "2026-08-18": {
-      "psalms": "Job 30",
-      "pentateuch": "1 Samuel 7-8",
-      "chronicles": "Jeremiah 51",
-      "gospels": "Mark 7"
-    },
-    "2026-08-19": {
-      "psalms": "Job 31",
-      "pentateuch": "1 Samuel 9",
-      "chronicles": "Jeremiah 52",
-      "gospels": "Mark 8"
-    },
-    "2026-08-20": {
-      "psalms": "Job 32",
-      "pentateuch": "1 Samuel 10",
-      "chronicles": "Lamentations 1",
-      "gospels": "Mark 9"
-    },
-    "2026-08-21": {
-      "psalms": "Job 33",
-      "pentateuch": "1 Samuel 11-12",
-      "chronicles": "Lamentations 2",
-      "gospels": "Mark 10:1-31"
-    },
-    "2026-08-22": {
-      "psalms": "Job 34",
-      "pentateuch": "1 Samuel 13",
-      "chronicles": "Lamentations 3",
-      "gospels": "Mark 10:32-52"
-    },
-    "2026-08-23": {
-      "psalms": "Job 35",
-      "pentateuch": "1 Samuel 14",
-      "chronicles": "Lamentations 4",
+      "psalms": "Psalm 12",
+      "pentateuch": "Ruth 3",
+      "chronicles": "Jeremiah 40-41",
       "gospels": "Mark 11"
     },
-    "2026-08-24": {
-      "psalms": "Job 36",
-      "pentateuch": "1 Samuel 15",
-      "chronicles": "Lamentations 5",
-      "gospels": "Mark 12:1-27"
+    "2026-08-15": {
+      "psalms": "Psalm 13",
+      "pentateuch": "Ruth 4",
+      "chronicles": "Jeremiah 42-43",
+      "gospels": "Mark 12"
     },
-    "2026-08-25": {
-      "psalms": "Job 37",
-      "pentateuch": "1 Samuel 16",
-      "chronicles": "Ezekiel 1",
-      "gospels": "Mark 12:28-44"
-    },
-    "2026-08-26": {
-      "psalms": "Job 38",
-      "pentateuch": "1 Samuel 17",
-      "chronicles": "Ezekiel 2-3",
+    "2026-08-16": {
+      "psalms": "Psalm 14",
+      "pentateuch": "1 Samuel 1:1-2:11",
+      "chronicles": "Jeremiah 44-45",
       "gospels": "Mark 13"
     },
-    "2026-08-27": {
-      "psalms": "Job 39",
-      "pentateuch": "1 Samuel 18",
-      "chronicles": "Ezekiel 4-5",
-      "gospels": "Mark 14:1-31"
+    "2026-08-17": {
+      "psalms": "Psalm 15",
+      "pentateuch": "1 Samuel 2:12-36",
+      "chronicles": "Jeremiah 46-47",
+      "gospels": "Mark 14"
     },
-    "2026-08-28": {
-      "psalms": "Job 40",
-      "pentateuch": "1 Samuel 19",
-      "chronicles": "Ezekiel 6-7",
-      "gospels": "Mark 14:32-72"
-    },
-    "2026-08-29": {
-      "psalms": "Job 41",
-      "pentateuch": "1 Samuel 20",
-      "chronicles": "Ezekiel 8-9",
+    "2026-08-18": {
+      "psalms": "Psalm 16",
+      "pentateuch": "1 Samuel 3",
+      "chronicles": "Jeremiah 48",
       "gospels": "Mark 15"
     },
-    "2026-08-30": {
-      "psalms": "Job 42",
-      "pentateuch": "1 Samuel 21-22",
-      "chronicles": "Ezekiel 10",
+    "2026-08-19": {
+      "psalms": "Psalm 17",
+      "pentateuch": "1 Samuel 4",
+      "chronicles": "Jeremiah 49",
       "gospels": "Mark 16"
     },
-    "2026-08-31": {
-      "psalms": "Psalm 90",
-      "pentateuch": "1 Samuel 23",
-      "chronicles": "Ezekiel 11",
-      "gospels": "John 1:1-18"
-    },
-    "2026-09-01": {
-      "psalms": "Psalm 91",
-      "pentateuch": "1 Samuel 18",
-      "chronicles": "Ezekiel 12",
-      "gospels": "John 1:19-51"
-    },
-    "2026-09-02": {
-      "psalms": "Psalm 92",
-      "pentateuch": "1 Samuel 19",
-      "chronicles": "Ezekiel 13",
-      "gospels": "John 2"
-    },
-    "2026-09-03": {
-      "psalms": "Psalm 93",
-      "pentateuch": "1 Samuel 20",
-      "chronicles": "Ezekiel 14",
-      "gospels": "John 3:1-21"
-    },
-    "2026-09-04": {
-      "psalms": "Psalm 94",
-      "pentateuch": "1 Samuel 21-22",
-      "chronicles": "Ezekiel 15",
-      "gospels": "John 3:22-4:3"
-    },
-    "2026-09-05": {
-      "psalms": "Psalm 95",
-      "pentateuch": "1 Samuel 23",
-      "chronicles": "Ezekiel 16",
-      "gospels": "John 4:4-42"
-    },
-    "2026-09-06": {
-      "psalms": "Psalm 96",
-      "pentateuch": "1 Samuel 24",
-      "chronicles": "Ezekiel 17",
-      "gospels": "John 4:43-54"
-    },
-    "2026-09-07": {
-      "psalms": "Psalm 97",
-      "pentateuch": "1 Samuel 25",
-      "chronicles": "Ezekiel 18",
-      "gospels": "John 5"
-    },
-    "2026-09-08": {
-      "psalms": "Psalm 98",
-      "pentateuch": "1 Samuel 26",
-      "chronicles": "Ezekiel 19",
-      "gospels": "John 6:1-21"
-    },
-    "2026-09-09": {
-      "psalms": "Psalm 99",
-      "pentateuch": "1 Samuel 27",
-      "chronicles": "Ezekiel 20",
-      "gospels": "John 6:22-71"
-    },
-    "2026-09-10": {
-      "psalms": "Psalm 100",
-      "pentateuch": "1 Samuel 28",
-      "chronicles": "Ezekiel 21",
-      "gospels": "John 7:1-24"
-    },
-    "2026-09-11": {
-      "psalms": "Psalm 101",
-      "pentateuch": "1 Samuel 29-30",
-      "chronicles": "Ezekiel 22",
-      "gospels": "John 7:25-52"
-    },
-    "2026-09-12": {
-      "psalms": "Psalm 102",
-      "pentateuch": "1 Samuel 31",
-      "chronicles": "Ezekiel 23",
-      "gospels": "John 7:53-8:11"
-    },
-    "2026-09-13": {
-      "psalms": "Psalm 103",
-      "pentateuch": "2 Samuel 1",
-      "chronicles": "Ezekiel 24",
-      "gospels": "John 8:12-30"
-    },
-    "2026-09-14": {
-      "psalms": "Psalm 104",
-      "pentateuch": "2 Samuel 2",
-      "chronicles": "Ezekiel 25",
-      "gospels": "John 8:31-59"
-    },
-    "2026-09-15": {
-      "psalms": "Psalm 105",
-      "pentateuch": "2 Samuel 3",
-      "chronicles": "Ezekiel 26",
-      "gospels": "John 9"
-    },
-    "2026-09-16": {
-      "psalms": "Psalm 106",
-      "pentateuch": "2 Samuel 4-5",
-      "chronicles": "Ezekiel 27",
-      "gospels": "John 10:1-21"
-    },
-    "2026-09-17": {
-      "psalms": "Psalm 107",
-      "pentateuch": "2 Samuel 6",
-      "chronicles": "Ezekiel 28",
-      "gospels": "John 10:22-42"
-    },
-    "2026-09-18": {
-      "psalms": "Psalm 108",
-      "pentateuch": "2 Samuel 7",
-      "chronicles": "Ezekiel 29",
-      "gospels": "John 11"
-    },
-    "2026-09-19": {
-      "psalms": "Psalm 109",
-      "pentateuch": "2 Samuel 8-9",
-      "chronicles": "Ezekiel 30",
-      "gospels": "John 12:1-19"
-    },
-    "2026-09-20": {
-      "psalms": "Psalm 110",
-      "pentateuch": "2 Samuel 10",
-      "chronicles": "Ezekiel 31",
-      "gospels": "John 12:20-50"
-    },
-    "2026-09-21": {
-      "psalms": "Psalm 111",
-      "pentateuch": "2 Samuel 11",
-      "chronicles": "Ezekiel 32",
-      "gospels": "John 13"
-    },
-    "2026-09-22": {
-      "psalms": "Psalm 112",
-      "pentateuch": "2 Samuel 12",
-      "chronicles": "Ezekiel 33",
-      "gospels": "John 14"
-    },
-    "2026-09-23": {
-      "psalms": "Psalm 113",
-      "pentateuch": "2 Samuel 13",
-      "chronicles": "Ezekiel 34",
-      "gospels": "John 15"
-    },
-    "2026-09-24": {
-      "psalms": "Psalm 114",
-      "pentateuch": "2 Samuel 14",
-      "chronicles": "Ezekiel 35",
-      "gospels": "John 16"
-    },
-    "2026-09-25": {
-      "psalms": "Psalm 115",
-      "pentateuch": "2 Samuel 15",
-      "chronicles": "Ezekiel 36",
-      "gospels": "John 17"
-    },
-    "2026-09-26": {
-      "psalms": "Psalm 116",
-      "pentateuch": "2 Samuel 16",
-      "chronicles": "Ezekiel 37",
-      "gospels": "John 18"
-    },
-    "2026-09-27": {
-      "psalms": "Psalm 117",
-      "pentateuch": "2 Samuel 17",
-      "chronicles": "Ezekiel 38",
-      "gospels": "John 19:1-27"
-    },
-    "2026-09-28": {
-      "psalms": "Psalm 118",
-      "pentateuch": "2 Samuel 18",
-      "chronicles": "Ezekiel 39",
-      "gospels": "John 19:28-42"
-    },
-    "2026-09-29": {
-      "psalms": "Psalm 119",
-      "pentateuch": "2 Samuel 19",
-      "chronicles": "Ezekiel 40",
-      "gospels": "John 20"
-    },
-    "2026-09-30": {
-      "psalms": "Psalm 120",
-      "pentateuch": "2 Samuel 20",
-      "chronicles": "Daniel 1",
-      "gospels": "John 21"
-    },
-    "2026-10-01": {
-      "psalms": "Psalm 121",
-      "pentateuch": "2 Samuel 21",
-      "chronicles": "Ezekiel 22",
-      "gospels": "1 John 2"
-    },
-    "2026-10-02": {
-      "psalms": "Psalm 122",
-      "pentateuch": "2 Samuel 22",
-      "chronicles": "Ezekiel 23",
-      "gospels": "1 John 3"
-    },
-    "2026-10-03": {
-      "psalms": "Psalm 123",
-      "pentateuch": "2 Samuel 23",
-      "chronicles": "Ezekiel 24",
-      "gospels": "1 John 4"
-    },
-    "2026-10-04": {
-      "psalms": "Psalm 124",
-      "pentateuch": "2 Samuel 24",
-      "chronicles": "Ezekiel 25",
-      "gospels": "1 John 5"
-    },
-    "2026-10-05": {
-      "psalms": "Psalm 125",
-      "pentateuch": "1 Kings 1",
-      "chronicles": "Ezekiel 26",
-      "gospels": "2 John"
-    },
-    "2026-10-06": {
-      "psalms": "Psalm 126",
-      "pentateuch": "1 Kings 2",
-      "chronicles": "Ezekiel 27",
-      "gospels": "3 John"
-    },
-    "2026-10-07": {
-      "psalms": "Psalm 127",
-      "pentateuch": "1 Kings 3",
-      "chronicles": "Ezekiel 28",
-      "gospels": "Jude"
-    },
-    "2026-10-08": {
-      "psalms": "Psalm 128",
-      "pentateuch": "1 Kings 4-5",
-      "chronicles": "Ezekiel 29-30:19",
-      "gospels": "Revelation 1"
-    },
-    "2026-10-09": {
-      "psalms": "Psalm 129",
-      "pentateuch": "1 Kings 6",
-      "chronicles": "Ezekiel 30:20-31:18",
-      "gospels": "Revelation 2"
-    },
-    "2026-10-10": {
-      "psalms": "Psalm 130",
-      "pentateuch": "1 Kings 7",
-      "chronicles": "Ezekiel 32",
-      "gospels": "Revelation 3"
-    },
-    "2026-10-11": {
-      "psalms": "Psalm 131",
-      "pentateuch": "1 Kings 8",
-      "chronicles": "Ezekiel 33",
-      "gospels": "Revelation 4"
-    },
-    "2026-10-12": {
-      "psalms": "Psalm 132",
-      "pentateuch": "1 Kings 9",
-      "chronicles": "Ezekiel 34",
-      "gospels": "Revelation 5"
-    },
-    "2026-10-13": {
-      "psalms": "Psalm 133",
-      "pentateuch": "1 Kings 10",
-      "chronicles": "Ezekiel 35",
-      "gospels": "Revelation 6"
-    },
-    "2026-10-14": {
-      "psalms": "Psalm 134",
-      "pentateuch": "1 Kings 11",
-      "chronicles": "Ezekiel 36",
-      "gospels": "Revelation 7"
-    },
-    "2026-10-15": {
-      "psalms": "Psalm 135",
-      "pentateuch": "1 Kings 12",
-      "chronicles": "Ezekiel 37",
-      "gospels": "Revelation 8"
-    },
-    "2026-10-16": {
-      "psalms": "Psalm 136",
-      "pentateuch": "1 Kings 13",
-      "chronicles": "Ezekiel 38",
-      "gospels": "Revelation 9"
-    },
-    "2026-10-17": {
-      "psalms": "Psalm 137",
-      "pentateuch": "1 Kings 14",
-      "chronicles": "Ezekiel 39",
-      "gospels": "Revelation 10"
-    },
-    "2026-10-18": {
-      "psalms": "Psalm 138",
-      "pentateuch": "1 Kings 15",
-      "chronicles": "Ezekiel 40",
-      "gospels": "Revelation 11"
-    },
-    "2026-10-19": {
-      "psalms": "Psalm 139",
-      "pentateuch": "1 Kings 16",
-      "chronicles": "Ezekiel 41",
-      "gospels": "Revelation 12"
-    },
-    "2026-10-20": {
-      "psalms": "Psalm 140",
-      "pentateuch": "1 Kings 17",
-      "chronicles": "Ezekiel 42",
-      "gospels": "Revelation 13"
-    },
-    "2026-10-21": {
-      "psalms": "Psalm 141",
-      "pentateuch": "1 Kings 18",
-      "chronicles": "Ezekiel 43",
-      "gospels": "Revelation 14"
-    },
-    "2026-10-22": {
-      "psalms": "Psalm 142",
-      "pentateuch": "1 Kings 19",
-      "chronicles": "Ezekiel 44",
-      "gospels": "Revelation 15"
-    },
-    "2026-10-23": {
-      "psalms": "Psalm 143",
-      "pentateuch": "1 Kings 20",
-      "chronicles": "Ezekiel 45",
-      "gospels": "Revelation 16"
-    },
-    "2026-10-24": {
-      "psalms": "Psalm 144",
-      "pentateuch": "1 Kings 21",
-      "chronicles": "Ezekiel 46",
-      "gospels": "Revelation 17"
-    },
-    "2026-10-25": {
-      "psalms": "Psalm 145",
-      "pentateuch": "1 Kings 22:1-28",
-      "chronicles": "Ezekiel 47",
-      "gospels": "Revelation 18"
-    },
-    "2026-10-26": {
-      "psalms": "Psalm 146",
-      "pentateuch": "1 Kings 22:29-53",
-      "chronicles": "Ezekiel 48",
-      "gospels": "Revelation 19"
-    },
-    "2026-10-27": {
-      "psalms": "Psalm 147",
-      "pentateuch": "2 Kings 1",
-      "chronicles": "Daniel 1",
-      "gospels": "Revelation 20"
-    },
-    "2026-10-28": {
-      "psalms": "Psalm 148",
-      "pentateuch": "2 Kings 2",
-      "chronicles": "Daniel 2",
-      "gospels": "Revelation 21"
-    },
-    "2026-10-29": {
-      "psalms": "Psalm 149",
-      "pentateuch": "2 Kings 3",
-      "chronicles": "Daniel 3",
-      "gospels": "Revelation 22"
-    },
-    "2026-10-30": {
-      "psalms": "Psalm 150",
-      "pentateuch": "2 Kings 4",
-      "chronicles": "Daniel 4",
-      "gospels": "Matthew 1"
-    },
-    "2026-10-31": {
-      "psalms": "Proverbs 1",
-      "pentateuch": "2 Kings 5",
-      "chronicles": "Daniel 5",
-      "gospels": "Hebrews 1:1-2:4"
-    },
-    "2026-11-01": {
-      "psalms": "Proverbs 2",
-      "pentateuch": "2 Kings 6-7",
-      "chronicles": "Zechariah 1",
-      "gospels": "Hebrews 2:5-18"
-    },
-    "2026-11-02": {
-      "psalms": "Proverbs 3",
-      "pentateuch": "2 Kings 8",
-      "chronicles": "Zechariah 2-3",
-      "gospels": "Hebrews 11"
-    },
-    "2026-11-03": {
-      "psalms": "Proverbs 4",
-      "pentateuch": "2 Kings 9",
-      "chronicles": "Zechariah 4-5",
-      "gospels": "Hebrews 12"
-    },
-    "2026-11-04": {
-      "psalms": "Proverbs 5",
-      "pentateuch": "2 Kings 10",
-      "chronicles": "Zechariah 6-7",
-      "gospels": "Hebrews 13"
-    },
-    "2026-11-05": {
-      "psalms": "Proverbs 6",
-      "pentateuch": "2 Kings 11-12",
-      "chronicles": "Zechariah 8",
-      "gospels": "James 1"
-    },
-    "2026-11-06": {
-      "psalms": "Proverbs 7",
-      "pentateuch": "2 Kings 13",
-      "chronicles": "Zechariah 9",
-      "gospels": "James 2"
-    },
-    "2026-11-07": {
-      "psalms": "Proverbs 8",
-      "pentateuch": "2 Kings 14",
-      "chronicles": "Zechariah 10-11",
-      "gospels": "James 3"
-    },
-    "2026-11-08": {
-      "psalms": "Proverbs 9",
-      "pentateuch": "2 Kings 15",
-      "chronicles": "Zechariah 12-13",
-      "gospels": "James 4"
-    },
-    "2026-11-09": {
-      "psalms": "Proverbs 10",
-      "pentateuch": "2 Kings 16",
-      "chronicles": "Zechariah 14",
-      "gospels": "James 5"
-    },
-    "2026-11-10": {
-      "psalms": "Proverbs 11",
-      "pentateuch": "2 Kings 17",
-      "chronicles": "Malachi 1-2:9",
+    "2026-08-20": {
+      "psalms": "Psalm 18",
+      "pentateuch": "1 Samuel 5:1-7:2",
+      "chronicles": "Jeremiah 50",
       "gospels": "1 Peter 1:1-12"
     },
-    "2026-11-11": {
-      "psalms": "Proverbs 12",
-      "pentateuch": "2 Kings 18",
-      "chronicles": "Malachi 2:10-3:18",
+    "2026-08-21": {
+      "psalms": "Psalm 19",
+      "pentateuch": "1 Samuel 7:3-17",
+      "chronicles": "Jeremiah 51",
       "gospels": "1 Peter 1:13-2:3"
     },
-    "2026-11-12": {
-      "psalms": "Proverbs 13",
-      "pentateuch": "2 Kings 19",
-      "chronicles": "Malachi 4",
-      "gospels": "1 Peter 2:4-25"
+    "2026-08-22": {
+      "psalms": "Psalm 20",
+      "pentateuch": "1 Samuel 8",
+      "chronicles": "Jeremiah 52",
+      "gospels": "1 Peter 2:4-10"
     },
-    "2026-11-13": {
-      "psalms": "Proverbs 14",
-      "pentateuch": "2 Kings 20",
-      "chronicles": "Isaiah 1",
-      "gospels": "1 Peter 3"
+    "2026-08-23": {
+      "psalms": "Psalm 21",
+      "pentateuch": "1 Samuel 9:1-10:16",
+      "chronicles": "Lamentations 1",
+      "gospels": "1 Peter 2:11-3:12"
     },
-    "2026-11-14": {
-      "psalms": "Proverbs 15",
-      "pentateuch": "2 Kings 21",
-      "chronicles": "Isaiah 2",
-      "gospels": "1 Peter 4"
+    "2026-08-24": {
+      "psalms": "Psalm 22",
+      "pentateuch": "1 Samuel 10:17-11:15",
+      "chronicles": "Lamentations 2",
+      "gospels": "1 Peter 3:13-4:19"
     },
-    "2026-11-15": {
-      "psalms": "Proverbs 16",
-      "pentateuch": "2 Kings 22",
-      "chronicles": "Isaiah 3-4",
+    "2026-08-25": {
+      "psalms": "Psalm 23",
+      "pentateuch": "1 Samuel 12",
+      "chronicles": "Lamentations 3",
       "gospels": "1 Peter 5"
     },
-    "2026-11-16": {
-      "psalms": "Proverbs 17",
-      "pentateuch": "2 Kings 23",
-      "chronicles": "Isaiah 5",
-      "gospels": "2 Peter 1"
+    "2026-08-26": {
+      "psalms": "Psalm 24",
+      "pentateuch": "1 Samuel 13",
+      "chronicles": "Lamentations 4",
+      "gospels": "2 Peter 1:1-11"
     },
-    "2026-11-17": {
-      "psalms": "Proverbs 18",
-      "pentateuch": "2 Kings 24",
-      "chronicles": "Isaiah 6",
+    "2026-08-27": {
+      "psalms": "Psalm 25",
+      "pentateuch": "1 Samuel 14",
+      "chronicles": "Lamentations 5",
+      "gospels": "2 Peter 1:12-21"
+    },
+    "2026-08-28": {
+      "psalms": "Psalm 26",
+      "pentateuch": "1 Samuel 15",
+      "chronicles": "Habakkuk 1:1-11",
       "gospels": "2 Peter 2"
     },
-    "2026-11-18": {
-      "psalms": "Proverbs 19",
-      "pentateuch": "2 Kings 25",
-      "chronicles": "Isaiah 7",
+    "2026-08-29": {
+      "psalms": "Psalm 27",
+      "pentateuch": "1 Samuel 16",
+      "chronicles": "Habakkuk 1:12-2:20",
       "gospels": "2 Peter 3"
     },
+    "2026-08-30": {
+      "psalms": "Psalm 28",
+      "pentateuch": "1 Samuel 17",
+      "chronicles": "Habakkuk 3",
+      "gospels": "Luke 1:1-25"
+    },
+    "2026-08-31": {
+      "psalms": "Psalm 29",
+      "pentateuch": "1 Samuel 18",
+      "chronicles": "Daniel 1",
+      "gospels": "Luke 1:26-56"
+    },
+    "2026-09-01": {
+      "psalms": "Psalm 30",
+      "pentateuch": "1 Samuel 19",
+      "chronicles": "Daniel 2",
+      "gospels": "Luke 1:57-80"
+    },
+    "2026-09-02": {
+      "psalms": "Psalm 31",
+      "pentateuch": "1 Samuel 20",
+      "chronicles": "Daniel 3",
+      "gospels": "Luke 2:1-21"
+    },
+    "2026-09-03": {
+      "psalms": "Psalm 32",
+      "pentateuch": "1 Samuel 21-22",
+      "chronicles": "Daniel 4",
+      "gospels": "Luke 2:22-52"
+    },
+    "2026-09-04": {
+      "psalms": "Psalm 33",
+      "pentateuch": "1 Samuel 23-24",
+      "chronicles": "Daniel 5",
+      "gospels": "Luke 3:1-22"
+    },
+    "2026-09-05": {
+      "psalms": "Psalm 34",
+      "pentateuch": "1 Samuel 25",
+      "chronicles": "Daniel 6",
+      "gospels": "Luke 3:23-4:13"
+    },
+    "2026-09-06": {
+      "psalms": "Psalm 35",
+      "pentateuch": "1 Samuel 26",
+      "chronicles": "Daniel 7",
+      "gospels": "Luke 4:14-44"
+    },
+    "2026-09-07": {
+      "psalms": "Psalm 36",
+      "pentateuch": "1 Samuel 27",
+      "chronicles": "Daniel 8",
+      "gospels": "Luke 5:1-6:16"
+    },
+    "2026-09-08": {
+      "psalms": "Psalm 37",
+      "pentateuch": "1 Samuel 28",
+      "chronicles": "Daniel 9",
+      "gospels": "Luke 6:17-49"
+    },
+    "2026-09-09": {
+      "psalms": "Psalm 38",
+      "pentateuch": "1 Samuel 29-30",
+      "chronicles": "Daniel 10:1-11:1",
+      "gospels": "Luke 7:1-35"
+    },
+    "2026-09-10": {
+      "psalms": "Psalm 39",
+      "pentateuch": "1 Samuel 31",
+      "chronicles": "Daniel 11:2-45",
+      "gospels": "Luke 7:36-8:3"
+    },
+    "2026-09-11": {
+      "psalms": "Psalm 40",
+      "pentateuch": "2 Samuel 1",
+      "chronicles": "Daniel 12",
+      "gospels": "Luke 8:4-21"
+    },
+    "2026-09-12": {
+      "psalms": "Psalm 41",
+      "pentateuch": "2 Samuel 2",
+      "chronicles": "Ezekiel 1",
+      "gospels": "Luke 8:22-56"
+    },
+    "2026-09-13": {
+      "psalms": "Psalm 42-43",
+      "pentateuch": "2 Samuel 3",
+      "chronicles": "Ezekiel 2-3",
+      "gospels": "Luke 9:1-50"
+    },
+    "2026-09-14": {
+      "psalms": "Psalm 44",
+      "pentateuch": "2 Samuel 4",
+      "chronicles": "Ezekiel 4:1-5:4",
+      "gospels": "Luke 9:51-10:24"
+    },
+    "2026-09-15": {
+      "psalms": "Psalm 45",
+      "pentateuch": "2 Samuel 5",
+      "chronicles": "Ezekiel 5:5-17",
+      "gospels": "Luke 10:25-42"
+    },
+    "2026-09-16": {
+      "psalms": "Psalm 46",
+      "pentateuch": "2 Samuel 6",
+      "chronicles": "Ezekiel 6",
+      "gospels": "Luke 11:1-36"
+    },
+    "2026-09-17": {
+      "psalms": "Psalm 47",
+      "pentateuch": "2 Samuel 7",
+      "chronicles": "Ezekiel 7",
+      "gospels": "Luke 11:37-12:12"
+    },
+    "2026-09-18": {
+      "psalms": "Psalm 48",
+      "pentateuch": "2 Samuel 8",
+      "chronicles": "Ezekiel 8",
+      "gospels": "Luke 12:13-48"
+    },
+    "2026-09-19": {
+      "psalms": "Psalm 49",
+      "pentateuch": "2 Samuel 9",
+      "chronicles": "Ezekiel 9",
+      "gospels": "Luke 12:49-13:9"
+    },
+    "2026-09-20": {
+      "psalms": "Psalm 50",
+      "pentateuch": "2 Samuel 10",
+      "chronicles": "Ezekiel 10:1-11:13",
+      "gospels": "Luke 13:10-35"
+    },
+    "2026-09-21": {
+      "psalms": "Psalm 51",
+      "pentateuch": "2 Samuel 11",
+      "chronicles": "Ezekiel 11:14-25",
+      "gospels": "Luke 14"
+    },
+    "2026-09-22": {
+      "psalms": "Psalm 52",
+      "pentateuch": "2 Samuel 12",
+      "chronicles": "Ezekiel 12",
+      "gospels": "Luke 15"
+    },
+    "2026-09-23": {
+      "psalms": "Psalm 53",
+      "pentateuch": "2 Samuel 13",
+      "chronicles": "Ezekiel 13",
+      "gospels": "Luke 16:1-17:10"
+    },
+    "2026-09-24": {
+      "psalms": "Psalm 54",
+      "pentateuch": "2 Samuel 14:1-24",
+      "chronicles": "Ezekiel 14-15",
+      "gospels": "Luke 17:11-37"
+    },
+    "2026-09-25": {
+      "psalms": "Psalm 55",
+      "pentateuch": "2 Samuel 14:25-15:12",
+      "chronicles": "Ezekiel 16",
+      "gospels": "Luke 18:1-30"
+    },
+    "2026-09-26": {
+      "psalms": "Psalm 56",
+      "pentateuch": "2 Samuel 15:13-16:14",
+      "chronicles": "Ezekiel 17",
+      "gospels": "Luke 18:31-19:27"
+    },
+    "2026-09-27": {
+      "psalms": "Psalm 57",
+      "pentateuch": "2 Samuel 16:15-17:23",
+      "chronicles": "Ezekiel 18",
+      "gospels": "Luke 19:28-46"
+    },
+    "2026-09-28": {
+      "psalms": "Psalm 58",
+      "pentateuch": "2 Samuel 17:24-18:33",
+      "chronicles": "Ezekiel 19",
+      "gospels": "Luke 19:47-20:44"
+    },
+    "2026-09-29": {
+      "psalms": "Psalm 59",
+      "pentateuch": "2 Samuel 19",
+      "chronicles": "Ezekiel 20",
+      "gospels": "Luke 20:45-21:38"
+    },
+    "2026-09-30": {
+      "psalms": "Psalm 60",
+      "pentateuch": "2 Samuel 20",
+      "chronicles": "Ezekiel 21",
+      "gospels": "Luke 22:1-46"
+    },
+    "2026-10-01": {
+      "psalms": "Psalm 61",
+      "pentateuch": "2 Samuel 21",
+      "chronicles": "Ezekiel 22",
+      "gospels": "Luke 22:47-23:25"
+    },
+    "2026-10-02": {
+      "psalms": "Psalm 62",
+      "pentateuch": "2 Samuel 22:1-23:7",
+      "chronicles": "Ezekiel 23",
+      "gospels": "Luke 23:26-56"
+    },
+    "2026-10-03": {
+      "psalms": "Psalm 63",
+      "pentateuch": "2 Samuel 23:8-39",
+      "chronicles": "Ezekiel 24",
+      "gospels": "Luke 24"
+    },
+    "2026-10-04": {
+      "psalms": "Psalm 64",
+      "pentateuch": "2 Samuel 24",
+      "chronicles": "Ezekiel 25",
+      "gospels": "Romans 1:1-17"
+    },
+    "2026-10-05": {
+      "psalms": "Psalm 65",
+      "pentateuch": "1 Kings 1:1-27",
+      "chronicles": "Ezekiel 26",
+      "gospels": "Romans 1:18-32"
+    },
+    "2026-10-06": {
+      "psalms": "Psalm 66",
+      "pentateuch": "1 Kings 1:28-53",
+      "chronicles": "Ezekiel 27",
+      "gospels": "Romans 2:1-16"
+    },
+    "2026-10-07": {
+      "psalms": "Psalm 67",
+      "pentateuch": "1 Kings 2",
+      "chronicles": "Ezekiel 28",
+      "gospels": "Romans 2:17-3:8"
+    },
+    "2026-10-08": {
+      "psalms": "Psalm 68",
+      "pentateuch": "1 Kings 3",
+      "chronicles": "Ezekiel 29-30",
+      "gospels": "Romans 3:9-20"
+    },
+    "2026-10-09": {
+      "psalms": "Psalm 69",
+      "pentateuch": "1 Kings 4",
+      "chronicles": "Ezekiel 31",
+      "gospels": "Romans 3:21-31"
+    },
+    "2026-10-10": {
+      "psalms": "Psalm 70",
+      "pentateuch": "1 Kings 5",
+      "chronicles": "Ezekiel 32",
+      "gospels": "Romans 4"
+    },
+    "2026-10-11": {
+      "psalms": "Psalm 71",
+      "pentateuch": "1 Kings 6",
+      "chronicles": "Ezekiel 33",
+      "gospels": "Romans 5:1-11"
+    },
+    "2026-10-12": {
+      "psalms": "Psalm 72",
+      "pentateuch": "1 Kings 7",
+      "chronicles": "Ezekiel 34",
+      "gospels": "Romans 5:12-21"
+    },
+    "2026-10-13": {
+      "psalms": "Psalm 73",
+      "pentateuch": "1 Kings 8:1-21",
+      "chronicles": "Ezekiel 35",
+      "gospels": "Romans 6"
+    },
+    "2026-10-14": {
+      "psalms": "Psalm 74",
+      "pentateuch": "1 Kings 8:22-66",
+      "chronicles": "Ezekiel 36",
+      "gospels": "Romans 7"
+    },
+    "2026-10-15": {
+      "psalms": "Psalm 75",
+      "pentateuch": "1 Kings 9:1-9",
+      "chronicles": "Ezekiel 37",
+      "gospels": "Romans 8:1-17"
+    },
+    "2026-10-16": {
+      "psalms": "Psalm 76",
+      "pentateuch": "1 Kings 9:10-10:29",
+      "chronicles": "Ezekiel 38",
+      "gospels": "Romans 8:18-39"
+    },
+    "2026-10-17": {
+      "psalms": "Psalm 77",
+      "pentateuch": "1 Kings 11",
+      "chronicles": "Ezekiel 39",
+      "gospels": "Romans 9:1-29"
+    },
+    "2026-10-18": {
+      "psalms": "Psalm 78",
+      "pentateuch": "1 Kings 12:1-15",
+      "chronicles": "Ezekiel 40",
+      "gospels": "Romans 9:30-10:21"
+    },
+    "2026-10-19": {
+      "psalms": "Psalm 79",
+      "pentateuch": "1 Kings 12:16-33",
+      "chronicles": "Ezekiel 41-42",
+      "gospels": "Romans 11"
+    },
+    "2026-10-20": {
+      "psalms": "Psalm 80",
+      "pentateuch": "1 Kings 13",
+      "chronicles": "Ezekiel 43",
+      "gospels": "Romans 12"
+    },
+    "2026-10-21": {
+      "psalms": "Psalm 81",
+      "pentateuch": "1 Kings 14:1-20",
+      "chronicles": "Ezekiel 44",
+      "gospels": "Romans 13"
+    },
+    "2026-10-22": {
+      "psalms": "Psalm 82",
+      "pentateuch": "1 Kings 14:21-15:24",
+      "chronicles": "Ezekiel 45",
+      "gospels": "Romans 14"
+    },
+    "2026-10-23": {
+      "psalms": "Psalm 83",
+      "pentateuch": "1 Kings 15:25-16:34",
+      "chronicles": "Ezekiel 46",
+      "gospels": "Romans 15:1-13"
+    },
+    "2026-10-24": {
+      "psalms": "Psalm 84",
+      "pentateuch": "1 Kings 17",
+      "chronicles": "Ezekiel 47:1-12",
+      "gospels": "Romans 15:14-33"
+    },
+    "2026-10-25": {
+      "psalms": "Psalm 85",
+      "pentateuch": "1 Kings 18:1-19",
+      "chronicles": "Ezekiel 47:13-48:35",
+      "gospels": "Romans 16"
+    },
+    "2026-10-26": {
+      "psalms": "Psalm 86",
+      "pentateuch": "1 Kings 18:20-46",
+      "chronicles": "Haggai 1",
+      "gospels": "James 1"
+    },
+    "2026-10-27": {
+      "psalms": "Psalm 87",
+      "pentateuch": "1 Kings 19",
+      "chronicles": "Haggai 2",
+      "gospels": "James 2:1-13"
+    },
+    "2026-10-28": {
+      "psalms": "Psalm 88",
+      "pentateuch": "1 Kings 20",
+      "chronicles": "Zechariah 1:1-17",
+      "gospels": "James 2:14-26"
+    },
+    "2026-10-29": {
+      "psalms": "Psalm 89",
+      "pentateuch": "1 Kings 21",
+      "chronicles": "Zechariah 1:18-2:13",
+      "gospels": "James 3:1-12"
+    },
+    "2026-10-30": {
+      "psalms": "Psalm 90",
+      "pentateuch": "1 Kings 22:1-28",
+      "chronicles": "Zechariah 3",
+      "gospels": "James 3:13-18"
+    },
+    "2026-10-31": {
+      "psalms": "Psalm 91",
+      "pentateuch": "1 Kings 22:29-53",
+      "chronicles": "Zechariah 4",
+      "gospels": "James 4:1-10"
+    },
+    "2026-11-01": {
+      "psalms": "Psalm 92",
+      "pentateuch": "2 Kings 1",
+      "chronicles": "Zechariah 5",
+      "gospels": "James 4:11-5:12"
+    },
+    "2026-11-02": {
+      "psalms": "Psalm 93",
+      "pentateuch": "2 Kings 2",
+      "chronicles": "Zechariah 6",
+      "gospels": "James 5:13-20"
+    },
+    "2026-11-03": {
+      "psalms": "Psalm 94",
+      "pentateuch": "2 Kings 3",
+      "chronicles": "Zechariah 7",
+      "gospels": "John 1:1-18"
+    },
+    "2026-11-04": {
+      "psalms": "Psalm 95",
+      "pentateuch": "2 Kings 4",
+      "chronicles": "Zechariah 8",
+      "gospels": "John 1:19-51"
+    },
+    "2026-11-05": {
+      "psalms": "Psalm 96",
+      "pentateuch": "2 Kings 5",
+      "chronicles": "Zechariah 9",
+      "gospels": "John 2"
+    },
+    "2026-11-06": {
+      "psalms": "Psalm 97",
+      "pentateuch": "2 Kings 6:1-23",
+      "chronicles": "Zechariah 10",
+      "gospels": "John 3:1-21"
+    },
+    "2026-11-07": {
+      "psalms": "Psalm 98",
+      "pentateuch": "2 Kings 6:24-7:20",
+      "chronicles": "Zechariah 11",
+      "gospels": "John 3:22-36"
+    },
+    "2026-11-08": {
+      "psalms": "Psalm 99",
+      "pentateuch": "2 Kings 8",
+      "chronicles": "Zechariah 12-13",
+      "gospels": "John 4:1-42"
+    },
+    "2026-11-09": {
+      "psalms": "Psalm 100",
+      "pentateuch": "2 Kings 9",
+      "chronicles": "Zechariah 14",
+      "gospels": "John 4:43-5:18"
+    },
+    "2026-11-10": {
+      "psalms": "Psalm 101",
+      "pentateuch": "2 Kings 10",
+      "chronicles": "Malachi 1:1-2:9",
+      "gospels": "John 5:19-47"
+    },
+    "2026-11-11": {
+      "psalms": "Psalm 102",
+      "pentateuch": "2 Kings 11",
+      "chronicles": "Malachi 2:10-17",
+      "gospels": "John 6:1-21"
+    },
+    "2026-11-12": {
+      "psalms": "Psalm 103",
+      "pentateuch": "2 Kings 12",
+      "chronicles": "Malachi 3:1-12",
+      "gospels": "John 6:22-71"
+    },
+    "2026-11-13": {
+      "psalms": "Psalm 104",
+      "pentateuch": "2 Kings 13",
+      "chronicles": "Malachi 3:13-4:6",
+      "gospels": "John 7"
+    },
+    "2026-11-14": {
+      "psalms": "Psalm 105",
+      "pentateuch": "2 Kings 14:1-22",
+      "chronicles": "Isaiah 1",
+      "gospels": "John 8"
+    },
+    "2026-11-15": {
+      "psalms": "Psalm 106",
+      "pentateuch": "2 Kings 14:23-15:38",
+      "chronicles": "Isaiah 2",
+      "gospels": "John 9"
+    },
+    "2026-11-16": {
+      "psalms": "Psalm 107",
+      "pentateuch": "2 Kings 16",
+      "chronicles": "Isaiah 3-4",
+      "gospels": "John 10:1-18"
+    },
+    "2026-11-17": {
+      "psalms": "Psalm 108",
+      "pentateuch": "2 Kings 17:1-23",
+      "chronicles": "Isaiah 5",
+      "gospels": "John 10:19-42"
+    },
+    "2026-11-18": {
+      "psalms": "Psalm 109",
+      "pentateuch": "2 Kings 17:24-41",
+      "chronicles": "Isaiah 6",
+      "gospels": "John 11:1-54"
+    },
     "2026-11-19": {
-      "psalms": "Proverbs 20",
-      "pentateuch": "Ezra 1",
-      "chronicles": "Isaiah 8:1-9:7",
-      "gospels": "1 John 1"
+      "psalms": "Psalm 110",
+      "pentateuch": "2 Kings 18",
+      "chronicles": "Isaiah 7-8",
+      "gospels": "John 11:55-12:19"
     },
     "2026-11-20": {
-      "psalms": "Proverbs 21",
-      "pentateuch": "Ezra 2",
-      "chronicles": "Isaiah 9:8-10:4",
-      "gospels": "1 John 2"
+      "psalms": "Psalm 111",
+      "pentateuch": "2 Kings 19",
+      "chronicles": "Isaiah 9:1-7",
+      "gospels": "John 12:20-50"
     },
     "2026-11-21": {
-      "psalms": "Proverbs 22",
-      "pentateuch": "Ezra 3",
-      "chronicles": "Isaiah 10:5-34",
-      "gospels": "1 John 3"
+      "psalms": "Psalm 112",
+      "pentateuch": "2 Kings 20",
+      "chronicles": "Isaiah 9:8-10:34",
+      "gospels": "John 13"
     },
     "2026-11-22": {
-      "psalms": "Proverbs 23",
-      "pentateuch": "Ezra 4",
+      "psalms": "Psalm 113",
+      "pentateuch": "2 Kings 21",
       "chronicles": "Isaiah 11-12",
-      "gospels": "1 John 4"
+      "gospels": "John 14"
     },
     "2026-11-23": {
-      "psalms": "Proverbs 24",
-      "pentateuch": "Ezra 5",
-      "chronicles": "Isaiah 13",
-      "gospels": "1 John 5"
+      "psalms": "Psalm 114",
+      "pentateuch": "2 Kings 22",
+      "chronicles": "Isaiah 13-14",
+      "gospels": "John 15:1-17"
     },
     "2026-11-24": {
-      "psalms": "Proverbs 25",
-      "pentateuch": "Ezra 6",
-      "chronicles": "Isaiah 14",
-      "gospels": "2 John"
+      "psalms": "Psalm 115",
+      "pentateuch": "2 Kings 23:1-30",
+      "chronicles": "Isaiah 15-16",
+      "gospels": "John 15:18-16:15"
     },
     "2026-11-25": {
-      "psalms": "Proverbs 26",
-      "pentateuch": "Ezra 7",
-      "chronicles": "Isaiah 15-16",
-      "gospels": "3 John"
+      "psalms": "Psalm 116",
+      "pentateuch": "2 Kings 23:31-24:17",
+      "chronicles": "Isaiah 17-18",
+      "gospels": "John 16:16-33"
     },
     "2026-11-26": {
-      "psalms": "Proverbs 27",
-      "pentateuch": "Ezra 8",
-      "chronicles": "Isaiah 17-18",
-      "gospels": "Jude"
+      "psalms": "Psalm 117",
+      "pentateuch": "2 Kings 24:18-25:21",
+      "chronicles": "Isaiah 19-20",
+      "gospels": "John 17"
     },
     "2026-11-27": {
-      "psalms": "Proverbs 28",
-      "pentateuch": "Ezra 9",
-      "chronicles": "Isaiah 19-20",
-      "gospels": "Revelation 1"
+      "psalms": "Psalm 118",
+      "pentateuch": "2 Kings 25:22-30",
+      "chronicles": "Isaiah 21",
+      "gospels": "John 18:1-27"
     },
     "2026-11-28": {
-      "psalms": "Proverbs 29",
-      "pentateuch": "Ezra 10",
-      "chronicles": "Isaiah 21",
-      "gospels": "Revelation 2"
+      "psalms": "Psalm 119:1-88",
+      "pentateuch": "Job 1",
+      "chronicles": "Isaiah 22",
+      "gospels": "John 18:28-19:16"
     },
     "2026-11-29": {
-      "psalms": "Proverbs 30",
-      "pentateuch": "Nehemiah 1",
-      "chronicles": "Isaiah 22",
-      "gospels": "Revelation 3"
+      "psalms": "Psalm 119:89-176",
+      "pentateuch": "Job 2",
+      "chronicles": "Isaiah 23",
+      "gospels": "John 19:17-42"
     },
     "2026-11-30": {
-      "psalms": "Proverbs 31",
-      "pentateuch": "Nehemiah 2",
-      "chronicles": "Isaiah 23",
-      "gospels": "Revelation 4"
+      "psalms": "Psalm 120",
+      "pentateuch": "Job 3",
+      "chronicles": "Isaiah 24",
+      "gospels": "John 20"
     },
     "2026-12-01": {
-      "psalms": "Psalm 92",
-      "pentateuch": "Nehemiah 3",
-      "chronicles": "Isaiah 24",
-      "gospels": "Revelation 5"
+      "psalms": "Psalm 121",
+      "pentateuch": "Job 4-5",
+      "chronicles": "Isaiah 25",
+      "gospels": "John 21"
     },
     "2026-12-02": {
       "psalms": "Psalm 122",
-      "pentateuch": "Nehemiah 4",
-      "chronicles": "Isaiah 25",
-      "gospels": "Revelation 6"
+      "pentateuch": "Job 6-7",
+      "chronicles": "Isaiah 26-27",
+      "gospels": "1 John 1:1-2:6"
     },
     "2026-12-03": {
       "psalms": "Psalm 123",
-      "pentateuch": "Nehemiah 5",
-      "chronicles": "Isaiah 26",
-      "gospels": "Revelation 7"
+      "pentateuch": "Job 8",
+      "chronicles": "Isaiah 28",
+      "gospels": "1 John 2:7-17"
     },
     "2026-12-04": {
       "psalms": "Psalm 124",
-      "pentateuch": "Nehemiah 6",
-      "chronicles": "Isaiah 27",
-      "gospels": "Revelation 8"
+      "pentateuch": "Job 9-10",
+      "chronicles": "Isaiah 29:1-30:17",
+      "gospels": "1 John 2:18-3:3"
     },
     "2026-12-05": {
       "psalms": "Psalm 125",
-      "pentateuch": "Nehemiah 7",
-      "chronicles": "Isaiah 28",
-      "gospels": "Revelation 9"
+      "pentateuch": "Job 11",
+      "chronicles": "Isaiah 30:18-32:20",
+      "gospels": "1 John 3:4-24"
     },
     "2026-12-06": {
       "psalms": "Psalm 126",
-      "pentateuch": "Nehemiah 8",
-      "chronicles": "Isaiah 29",
-      "gospels": "Revelation 10"
+      "pentateuch": "Job 12",
+      "chronicles": "Isaiah 33-34",
+      "gospels": "1 John 4"
     },
     "2026-12-07": {
       "psalms": "Psalm 127",
-      "pentateuch": "Nehemiah 9",
-      "chronicles": "Isaiah 30",
-      "gospels": "Revelation 11"
+      "pentateuch": "Job 13",
+      "chronicles": "Isaiah 35",
+      "gospels": "1 John 5"
     },
     "2026-12-08": {
       "psalms": "Psalm 128",
-      "pentateuch": "Nehemiah 10",
-      "chronicles": "Isaiah 31",
-      "gospels": "Revelation 12"
+      "pentateuch": "Job 14",
+      "chronicles": "Isaiah 36-37",
+      "gospels": "2 John"
     },
     "2026-12-09": {
       "psalms": "Psalm 129",
-      "pentateuch": "Nehemiah 11",
-      "chronicles": "Isaiah 32",
-      "gospels": "Revelation 13"
+      "pentateuch": "Job 15",
+      "chronicles": "Isaiah 38",
+      "gospels": "3 John"
     },
     "2026-12-10": {
       "psalms": "Psalm 130",
-      "pentateuch": "Nehemiah 12",
-      "chronicles": "Isaiah 33",
-      "gospels": "Revelation 14"
+      "pentateuch": "Job 16-17",
+      "chronicles": "Isaiah 39",
+      "gospels": "Jude"
     },
     "2026-12-11": {
       "psalms": "Psalm 131",
-      "pentateuch": "Nehemiah 13",
-      "chronicles": "Isaiah 34",
-      "gospels": "Revelation 15"
+      "pentateuch": "Job 18",
+      "chronicles": "Isaiah 40",
+      "gospels": "Revelation 1"
     },
     "2026-12-12": {
       "psalms": "Psalm 132",
-      "pentateuch": "Esther 1",
-      "chronicles": "Isaiah 35",
-      "gospels": "Revelation 16"
+      "pentateuch": "Job 19",
+      "chronicles": "Isaiah 41",
+      "gospels": "Revelation 2"
     },
     "2026-12-13": {
       "psalms": "Psalm 133",
-      "pentateuch": "Esther 2",
-      "chronicles": "Isaiah 36",
-      "gospels": "Revelation 17"
+      "pentateuch": "Job 20",
+      "chronicles": "Isaiah 42",
+      "gospels": "Revelation 3"
     },
     "2026-12-14": {
       "psalms": "Psalm 134",
-      "pentateuch": "Esther 3",
-      "chronicles": "Isaiah 37",
-      "gospels": "Revelation 18"
+      "pentateuch": "Job 21",
+      "chronicles": "Isaiah 43:1-44:5",
+      "gospels": "Revelation 4"
     },
     "2026-12-15": {
       "psalms": "Psalm 135",
-      "pentateuch": "Esther 4",
-      "chronicles": "Isaiah 38",
-      "gospels": "Revelation 19"
+      "pentateuch": "Job 22",
+      "chronicles": "Isaiah 44:6-28",
+      "gospels": "Revelation 5"
     },
     "2026-12-16": {
       "psalms": "Psalm 136",
-      "pentateuch": "Esther 5",
-      "chronicles": "Isaiah 39",
-      "gospels": "Revelation 20"
+      "pentateuch": "Job 23-24",
+      "chronicles": "Isaiah 45",
+      "gospels": "Revelation 6"
     },
     "2026-12-17": {
       "psalms": "Psalm 137",
-      "pentateuch": "Esther 6",
-      "chronicles": "Isaiah 40",
-      "gospels": "Revelation 21"
+      "pentateuch": "Job 25-26",
+      "chronicles": "Isaiah 46-47",
+      "gospels": "Revelation 7:1-8:5"
     },
     "2026-12-18": {
       "psalms": "Psalm 138",
-      "pentateuch": "Esther 7",
-      "chronicles": "Isaiah 41",
-      "gospels": "Revelation 22"
+      "pentateuch": "Job 27",
+      "chronicles": "Isaiah 48-49",
+      "gospels": "Revelation 8:6-9:21"
     },
     "2026-12-19": {
       "psalms": "Psalm 139",
-      "pentateuch": "Esther 8",
-      "chronicles": "Isaiah 42",
-      "gospels": "Psalm 113"
+      "pentateuch": "Job 28",
+      "chronicles": "Isaiah 50",
+      "gospels": "Revelation 10"
     },
     "2026-12-20": {
       "psalms": "Psalm 140",
-      "pentateuch": "Esther 9-10",
-      "chronicles": "Isaiah 43",
-      "gospels": "Psalm 114"
+      "pentateuch": "Job 29",
+      "chronicles": "Isaiah 51:1-52:12",
+      "gospels": "Revelation 11"
     },
     "2026-12-21": {
       "psalms": "Psalm 141",
-      "pentateuch": "Daniel 1",
-      "chronicles": "Isaiah 44",
-      "gospels": "Psalm 115"
+      "pentateuch": "Job 30",
+      "chronicles": "Isaiah 52:13-53:12",
+      "gospels": "Revelation 12"
     },
     "2026-12-22": {
       "psalms": "Psalm 142",
-      "pentateuch": "Daniel 2",
-      "chronicles": "Isaiah 45",
-      "gospels": "Psalm 116"
+      "pentateuch": "Job 31",
+      "chronicles": "Isaiah 54",
+      "gospels": "Revelation 13"
     },
     "2026-12-23": {
       "psalms": "Psalm 143",
-      "pentateuch": "Daniel 3",
-      "chronicles": "Isaiah 46",
-      "gospels": "Psalm 117"
+      "pentateuch": "Job 32",
+      "chronicles": "Isaiah 55",
+      "gospels": "Revelation 14"
     },
     "2026-12-24": {
       "psalms": "Psalm 144",
-      "pentateuch": "Daniel 4",
-      "chronicles": "Isaiah 47",
-      "gospels": "Psalm 118"
+      "pentateuch": "Job 33",
+      "chronicles": "Isaiah 56-57",
+      "gospels": "Revelation 15"
     },
     "2026-12-25": {
       "psalms": "Psalm 145",
-      "pentateuch": "Daniel 5",
-      "chronicles": "Isaiah 48",
-      "gospels": "Psalm 119:1-88"
+      "pentateuch": "Job 34-35",
+      "chronicles": "Isaiah 58",
+      "gospels": "Revelation 16"
     },
     "2026-12-26": {
       "psalms": "Psalm 146",
-      "pentateuch": "Daniel 6",
-      "chronicles": "Isaiah 49",
-      "gospels": "Psalm 119:89-176"
+      "pentateuch": "Job 36:1-21",
+      "chronicles": "Isaiah 59",
+      "gospels": "Revelation 17"
     },
     "2026-12-27": {
       "psalms": "Psalm 147",
-      "pentateuch": "Daniel 7",
-      "chronicles": "Isaiah 50",
-      "gospels": "Psalm 120"
+      "pentateuch": "Job 36:22-37:24",
+      "chronicles": "Isaiah 60",
+      "gospels": "Revelation 18"
     },
     "2026-12-28": {
       "psalms": "Psalm 148",
-      "pentateuch": "Daniel 8",
-      "chronicles": "Isaiah 51",
-      "gospels": "Psalm 121"
+      "pentateuch": "Job 38",
+      "chronicles": "Isaiah 61-62",
+      "gospels": "Revelation 19"
     },
     "2026-12-29": {
       "psalms": "Psalm 149",
-      "pentateuch": "Daniel 9",
-      "chronicles": "Isaiah 52",
-      "gospels": "Psalm 122"
+      "pentateuch": "Job 39:1-40:5",
+      "chronicles": "Isaiah 63-64",
+      "gospels": "Revelation 20"
     },
     "2026-12-30": {
       "psalms": "Psalm 150",
-      "pentateuch": "Daniel 10",
-      "chronicles": "Isaiah 53",
-      "gospels": "Psalm 123"
+      "pentateuch": "Job 40:6-42:6",
+      "chronicles": "Isaiah 65",
+      "gospels": "Revelation 21:1-27"
     },
     "2026-12-31": {
       "psalms": "Psalm 90",
-      "pentateuch": "Daniel 11-12",
-      "chronicles": "Isaiah 54",
-      "gospels": "Psalm 124"
+      "pentateuch": "Job 42:7-17",
+      "chronicles": "Isaiah 66",
+      "gospels": "Revelation 22"
     }
   }
 }
