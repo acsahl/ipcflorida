@@ -1,17 +1,18 @@
+/* ---------- signed-out / loading ---------- */
 .wrapped-eyebrow {
   font-family: var(--font-display);
   font-style: italic;
   font-size: 0.9rem;
   color: var(--accent);
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.18em;
   margin-bottom: 0.5rem;
 }
 
 .wrapped-locked {
   background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
   padding: 3rem 2rem;
   text-align: center;
   display: flex;
@@ -21,112 +22,229 @@
   max-width: 480px;
   margin: 0 auto;
 }
-
 .wrapped-locked h2 {
   font-family: var(--font-display);
   font-size: 1.75rem;
   font-weight: 600;
 }
+.wrapped-locked p { color: var(--muted); }
 
-.wrapped-locked p {
-  color: var(--muted);
-}
-
-.wrapped-hero {
-  background: var(--surface);
+/* ---------- the story ---------- */
+.wrapped-story {
+  position: relative;
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
-  padding: 2.5rem 2rem;
-  text-align: center;
-  margin-bottom: 1.25rem;
-}
-
-.wrapped-hero h1 {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: clamp(1.75rem, 4vw, 2.75rem);
-  letter-spacing: -0.01em;
-  line-height: 1.15;
-  color: var(--ink);
-}
-
-.wrapped-sub {
-  color: var(--muted);
-  margin-top: 0.6rem;
-  font-size: 0.95rem;
-}
-
-.wrapped-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-}
-
-.wcard {
-  background: var(--surface);
-  border-radius: var(--radius-md);
-  padding: 1.75rem 1.5rem;
-  box-shadow: var(--shadow-sm);
-  border: 1px solid var(--border);
+  overflow: hidden;
+  min-height: 560px;
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
-  transition: transform 0.2s, box-shadow 0.2s;
+  justify-content: center;
+  padding: 3.5rem 3rem 2.5rem;
+  transition: background 0.6s ease, color 0.6s ease;
+  isolation: isolate;
 }
 
-.wcard:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+/* Per-slide palettes, all drawn from the autumn set. */
+.tone-ink     { background: linear-gradient(155deg, #3a2a1e, #211610); color: #f7f1e6; }
+.tone-rust    { background: linear-gradient(155deg, #c25a22, #8f3d14); color: #fff6ec; }
+.tone-harvest { background: linear-gradient(155deg, #d79433, #a8691a); color: #2b1c0e; }
+.tone-olive   { background: linear-gradient(155deg, #7d7640, #4f4a24); color: #f7f4e4; }
+
+/* soft moving glow so slides don't feel static */
+.wrapped-story::before {
+  content: "";
+  position: absolute;
+  inset: -30%;
+  background: radial-gradient(closest-side, rgba(255, 255, 255, 0.16), transparent 70%);
+  z-index: -1;
+  animation: drift 14s ease-in-out infinite alternate;
+}
+@keyframes drift {
+  from { transform: translate3d(-12%, -8%, 0) scale(1); }
+  to   { transform: translate3d(14%, 10%, 0) scale(1.25); }
 }
 
-.wcard-big {
-  grid-column: span 3;
-  background: linear-gradient(135deg, var(--surface-raised), var(--surface));
-  padding: 2.25rem 2rem;
+/* ---------- progress bars ---------- */
+.w-bars {
+  position: absolute;
+  top: 1rem;
+  left: 1.25rem;
+  right: 1.25rem;
+  display: flex;
+  gap: 0.3rem;
+  z-index: 3;
 }
 
-.wcard-wide {
-  grid-column: span 3;
+.w-bar {
+  flex: 1;
+  height: 3px;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.28);
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.wcard-label {
-  font-size: 0.75rem;
+.w-bar-fill {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: currentColor;
+  border-radius: 2px;
+}
+.w-bar-fill.is-done { width: 100%; }
+.w-bar-fill.is-active { animation: fillBar linear forwards; }
+@keyframes fillBar { from { width: 0; } to { width: 100%; } }
+
+/* ---------- tap zones ---------- */
+.w-tap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 28%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+.w-tap-prev { left: 0; }
+.w-tap-next { right: 0; }
+
+/* ---------- stage + staggered reveal ---------- */
+.w-stage {
+  position: relative;
+  z-index: 1;
+  /* px, not ch: ch resolves against this element's 16px font and would
+     squeeze the clamped display type into a narrow column. */
+  max-width: 680px;
+  pointer-events: none;
+}
+
+.w-stage > * {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: rise 0.62s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.r-1 { animation-delay: 0.05s; }
+.r-2 { animation-delay: 0.18s; }
+.r-3 { animation-delay: 0.32s; }
+.r-4 { animation-delay: 0.46s; }
+
+@keyframes rise {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.w-kicker {
+  font-size: 0.68rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
-  color: var(--muted);
+  letter-spacing: 0.24em;
+  opacity: 0.75;
+  margin-bottom: 0.9rem;
 }
 
-.wcard-number {
+.w-number {
   font-family: var(--font-display);
-  font-size: clamp(2.25rem, 6vw, 3.5rem);
+  font-size: clamp(4.5rem, 15vw, 10rem);
   font-weight: 600;
-  color: var(--accent);
+  line-height: 0.85;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.w-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  font-weight: 500;
   line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+.w-title em { font-style: italic; opacity: 0.9; }
+.w-title-sm { font-size: clamp(1.8rem, 4.5vw, 3rem); }
+
+.w-headline {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 2.6vw, 1.9rem);
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.6rem;
 }
 
-.wcard-big .wcard-number {
-  font-size: clamp(3rem, 8vw, 4.5rem);
+.w-sub {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  opacity: 0.78;
+  max-width: 34ch;
 }
 
-.wcard-number-sm {
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  color: var(--ink);
+.w-hidden { display: none; }
+
+/* ---------- recap row on the final slide ---------- */
+.w-recap {
+  display: flex;
+  gap: 2.25rem;
+  margin: 1.25rem 0 1rem;
+  flex-wrap: wrap;
+}
+.w-recap div { display: flex; flex-direction: column; gap: 0.2rem; }
+.w-recap span {
+  font-family: var(--font-display);
+  font-size: 2.1rem;
+  line-height: 1;
+}
+.w-recap small {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  opacity: 0.7;
 }
 
-.wcard-note {
-  color: var(--muted);
-  font-size: 0.85rem;
+/* ---------- controls ---------- */
+.w-controls {
+  position: absolute;
+  bottom: 1.15rem;
+  right: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 3;
 }
 
-@media (max-width: 900px) {
-  .wrapped-grid { grid-template-columns: repeat(2, 1fr); }
-  .wcard-big, .wcard-wide { grid-column: span 2; }
+.w-ctl {
+  background: rgba(255, 255, 255, 0.14);
+  color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: var(--radius-pill);
+  padding: 0.45rem 1rem;
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  transition: background 0.2s;
+}
+.w-ctl:hover { background: rgba(255, 255, 255, 0.26); }
+.w-ctl-primary {
+  background: rgba(255, 255, 255, 0.9);
+  color: #2b1c0e;
+  border-color: transparent;
 }
 
 @media (max-width: 700px) {
-  .wrapped-hero { padding: 1.75rem 1.25rem; }
-  .wrapped-grid { grid-template-columns: 1fr; gap: 0.75rem; }
-  .wcard-big, .wcard-wide { grid-column: span 1; }
-  .wcard { padding: 1.35rem 1.25rem; }
+  .wrapped-story {
+    min-height: 480px;
+    padding: 2.75rem 1.35rem 3.5rem;
+    border-radius: var(--radius-md);
+  }
+  .w-stage { max-width: none; }
+  .w-recap { gap: 1.25rem; }
+  .w-recap span { font-size: 1.5rem; }
+  .w-controls { right: 1rem; bottom: 1rem; }
+}
+
+/* Respect reduced motion: keep the content, drop the movement. */
+@media (prefers-reduced-motion: reduce) {
+  .wrapped-story::before { animation: none; }
+  .w-stage > * { animation-duration: 0.01ms; animation-delay: 0ms; opacity: 1; transform: none; }
+  .w-bar-fill.is-active { animation: none; width: 100%; }
 }
