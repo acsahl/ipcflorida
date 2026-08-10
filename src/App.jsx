@@ -6,6 +6,7 @@ import Leaderboard from "./components/Leaderboard.jsx";
 import InsightPanel from "./components/InsightPanel.jsx";
 import Calendar from "./components/Calendar.jsx";
 import WrappedPage from "./components/WrappedPage.jsx";
+import BooksPage from "./components/BooksPage.jsx";
 import useCompletions from "./hooks/useCompletions.js";
 import { useAuth } from "./contexts/AuthContext.jsx";
 import "./styles/app.css";
@@ -64,6 +65,12 @@ export default function App() {
             onClick={() => setPage("calendar")}
           >
             Calendar
+          </button>
+          <button
+            className={`nav-link ${page === "books" ? "is-active" : ""}`}
+            onClick={() => setPage("books")}
+          >
+            Books
           </button>
           <button
             className={`nav-link ${page === "leaderboard" ? "is-active" : ""}`}
@@ -155,6 +162,10 @@ export default function App() {
 
         {page === "leaderboard" && (
           <Leaderboard refreshKey={daysComplete} />
+        )}
+
+        {page === "books" && (
+          <BooksPage plan={plan} isComplete={isComplete} />
         )}
 
         {page === "wrapped" && (
