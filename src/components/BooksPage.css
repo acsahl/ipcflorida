@@ -172,8 +172,14 @@
   border-radius: 3px;
   background: color-mix(in srgb, var(--ink) 10%, transparent);
   transition: background 0.15s, transform 0.15s;
+  flex-shrink: 0;
 }
 .chip:hover { transform: scale(1.35); }
+.chip:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  transform: scale(1.35);
+}
 
 .chip.is-read { background: var(--accent); }
 .chip.is-partial {

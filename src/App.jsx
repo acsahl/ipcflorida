@@ -167,7 +167,7 @@ export default function App() {
         )}
 
         {page === "books" && (
-          <BooksPage plan={plan} isComplete={isComplete} />
+          <BooksPage plan={plan} isComplete={isComplete} onToggle={toggle} />
         )}
 
         {page === "wrapped" && (

@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { BOOKS, OT_COUNT, buildBookIndex } from "../lib/passages.js";
+import ChapterEditModal from "./ChapterEditModal.jsx";
 import "./BooksPage.css";
 
 const TESTAMENTS = [
@@ -7,8 +8,9 @@ const TESTAMENTS = [
   { key: "nt", label: "New Testament", books: BOOKS.slice(OT_COUNT) },
 ];
 
-export default function BooksPage({ plan, isComplete }) {
+export default function BooksPage({ plan, isComplete, onToggle }) {
   const [filter, setFilter] = useState("all"); // all | started | done
+  const [editing, setEditing] = useState(null); // { book, chapter, slots } | null
   const index = useMemo(() => (plan ? buildBookIndex(plan) : {}), [plan]);
 
   // Per book: each chapter -> "read" | "partial" | "unread"
@@ -130,15 +132,15 @@ export default function BooksPage({ plan, isComplete }) {
                     </span>
                   </div>
 
-                  <div
-                    className="book-chapters"
-                    role="img"
-                    aria-label={`${b.name}: ${b.read} of ${b.total} chapters read`}
-                  >
+                  <div className="book-chapters">
                     {b.chapters.map((c) => (
-                      <span
+                      <button
                         key={c.ch}
+                        type="button"
                         className={`chip is-${c.state}`}
+                        onClick={() =>
+                          setEditing({ book: b.name, chapter: c.ch, slots: c.slots })
+                        }
                         title={
                           c.slots.length
                             ? `${b.name} ${c.ch} — scheduled ${c.slots
@@ -146,6 +148,9 @@ export default function BooksPage({ plan, isComplete }) {
                                 .join(", ")}${c.done ? " (read)" : ""}`
                             : `${b.name} ${c.ch} — not in the plan`
                         }
+                        aria-label={`${b.name} ${c.ch}, ${
+                          c.slots.length ? (c.done ? "read" : "not read") : "not in the plan"
+                        }`}
                       />
                     ))}
                   </div>
@@ -159,6 +164,18 @@ export default function BooksPage({ plan, isComplete }) {
           </div>
         );
       })}
+
+      {editing && (
+        <ChapterEditModal
+          book={editing.book}
+          chapter={editing.chapter}
+          slots={editing.slots}
+          plan={plan}
+          isComplete={isComplete}
+          onToggle={onToggle}
+          onClose={() => setEditing(null)}
+        />
+      )}
     </section>
   );
 }
